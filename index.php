@@ -32,7 +32,7 @@
 
 		echo '<hr>';*/
 
-		$a = [
+		/*$a = [
 			'dozens' => [
 				1 , 2 , 3
 			]
@@ -42,9 +42,13 @@
 
 		echo "<pre>";
 		print_r($g);
+		echo "</pre>";*/
+
+		$a = [1,2,3,5,6,9];
+
+		echo "<pre>";
+		print_r(sequence($a));
 		echo "</pre>";
-
-
 
 	?>
 	

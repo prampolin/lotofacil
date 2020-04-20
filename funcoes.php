@@ -116,5 +116,34 @@
 		return $ret;
 	}
 
+	/* 
+		Return a array with:
+		- Sequence of numbers;
+			Ex: $var = print_r(sequence(array));
+	*/
+	function sequence(array $a) : array
+	{
+
+		$s = [];
+		$arr = [];
+
+		foreach ($a as $key => $v) {
+			array_push($arr, $v);
+
+			if(!empty($a[$key + 1]) && $a[$key + 1] != $v + 1)
+			{
+				array_push($s, $arr);
+				$arr = array();
+			}
+		}
+
+		array_push($s, $arr);
+
+		return $s;
+	}
+
+
+
+	
 
 ?>
