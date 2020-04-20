@@ -6,10 +6,10 @@
 		- Number of dozens defined for $t;
 			Ex: $var = generateRandom();
 	*/
-	function generateRandom($a = [], $t = 14) : array
+	function generateRandom(array $a = [], $t = 14) : array
 	{
 
-		$n = rand(1,25);
+		$n = rand(1, 25);
 
 		if(in_array($n, $a, true))
 		{
@@ -127,10 +127,11 @@
 		$s = [];
 		$arr = [];
 
-		foreach ($a as $key => $v) {
+		foreach ($a as $k => $v)
+		{
 			array_push($arr, $v);
 
-			if(!empty($a[$key + 1]) && $a[$key + 1] != $v + 1)
+			if(!empty($a[$k + 1]) && $a[$k + 1] != $v + 1)
 			{
 				array_push($s, $arr);
 				$arr = array();
@@ -140,10 +141,6 @@
 		array_push($s, $arr);
 
 		return $s;
-	}
-
-
-
-	
+	}	
 
 ?>

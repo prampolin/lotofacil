@@ -16,43 +16,13 @@
 
 	<?php 
 
-		/*$r = null;
-
-		$gerado = generate();
-
-		foreach ($gerado as $key => $value) {
-			$r .= $value.', ';
-		}
-
-		echo substr($r, 0, -2)."<br>";
-		echo "<strong>Moldura </strong>".frame($gerado)['total_frame']."<br>";
-		echo "<strong>Pares </strong>".oddEven($gerado)['total_even']."<br>";
-		echo "<strong>Impares </strong>".oddEven($gerado)['total_odd']."<br>";
-		echo "<strong>Primos </strong>".primeNumber($gerado)['total_prime']."<br>";
-
-		echo '<hr>';*/
-
-		/*$a = [
-			'dozens' => [
-				1 , 2 , 3
-			]
-		];
-
-		$g = generate($a);
+		$v = generateRandom();
 
 		echo "<pre>";
-		print_r($g);
-		echo "</pre>";*/
-
-		$a = [1,2,3,5,6,9];
-
-		echo "<pre>";
-		print_r(sequence($a));
+		print_r($v);
 		echo "</pre>";
 
 	?>
-	
-
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
