@@ -1,0 +1,166 @@
+{
+  "fixed10": {
+    "parity": {
+      "name": "Paridade (Ímpares / Pares)",
+      "total_tests": 378,
+      "hit_rate": 68.78,
+      "survival_rate": 88.62,
+      "avg_reduction": 31.87,
+      "composite_score": 63.8
+    },
+    "sum_range": {
+      "name": "Faixa de Soma (de 10 em 10)",
+      "total_tests": 378,
+      "hit_rate": 46.3,
+      "survival_rate": 75.93,
+      "avg_reduction": 52.38,
+      "composite_score": 60.28
+    },
+    "primes": {
+      "name": "Números Primos",
+      "total_tests": 378,
+      "hit_rate": 69.31,
+      "survival_rate": 86.77,
+      "avg_reduction": 29.92,
+      "composite_score": 62.51
+    },
+    "fibonacci": {
+      "name": "Números de Fibonacci",
+      "total_tests": 378,
+      "hit_rate": 70.37,
+      "survival_rate": 88.62,
+      "avg_reduction": 26.8,
+      "composite_score": 62.42
+    },
+    "multiples_of_3": {
+      "name": "Múltiplos de 3",
+      "total_tests": 378,
+      "hit_rate": 66.4,
+      "survival_rate": 83.33,
+      "avg_reduction": 29.89,
+      "composite_score": 60.39
+    },
+    "border": {
+      "name": "Moldura (Borda)",
+      "total_tests": 378,
+      "hit_rate": 68.25,
+      "survival_rate": 84.66,
+      "avg_reduction": 30.44,
+      "composite_score": 61.58
+    },
+    "row_distribution": {
+      "name": "Distribuição por Linhas",
+      "total_tests": 378,
+      "hit_rate": 1.85,
+      "survival_rate": 8.47,
+      "avg_reduction": 97.43,
+      "composite_score": 37.95
+    },
+    "col_distribution": {
+      "name": "Distribuição por Colunas",
+      "total_tests": 378,
+      "hit_rate": 2.65,
+      "survival_rate": 6.08,
+      "avg_reduction": 97.52,
+      "composite_score": 37.23
+    },
+    "consecutives": {
+      "name": "Sequências Consecutivas",
+      "total_tests": 378,
+      "hit_rate": 16.93,
+      "survival_rate": 39.95,
+      "avg_reduction": 79.59,
+      "composite_score": 48.07
+    },
+    "repetitions": {
+      "name": "Repetições do Concurso Anterior",
+      "total_tests": 378,
+      "hit_rate": 67.99,
+      "survival_rate": 83.07,
+      "avg_reduction": 32.6,
+      "composite_score": 61.63
+    }
+  },
+  "fixed50": {
+    "parity": {
+      "name": "Paridade (Ímpares / Pares)",
+      "total_tests": 75,
+      "hit_rate": 77.33,
+      "survival_rate": 97.33,
+      "avg_reduction": 25.0,
+      "composite_score": 67.02
+    },
+    "sum_range": {
+      "name": "Faixa de Soma (de 10 em 10)",
+      "total_tests": 75,
+      "hit_rate": 48.0,
+      "survival_rate": 94.67,
+      "avg_reduction": 46.11,
+      "composite_score": 66.01
+    },
+    "primes": {
+      "name": "Números Primos",
+      "total_tests": 75,
+      "hit_rate": 80.0,
+      "survival_rate": 98.67,
+      "avg_reduction": 24.57,
+      "composite_score": 68.07
+    },
+    "fibonacci": {
+      "name": "Números de Fibonacci",
+      "total_tests": 75,
+      "hit_rate": 85.33,
+      "survival_rate": 100.0,
+      "avg_reduction": 18.77,
+      "composite_score": 67.9
+    },
+    "multiples_of_3": {
+      "name": "Múltiplos de 3",
+      "total_tests": 75,
+      "hit_rate": 76.0,
+      "survival_rate": 97.33,
+      "avg_reduction": 21.33,
+      "composite_score": 65.4
+    },
+    "border": {
+      "name": "Moldura (Borda)",
+      "total_tests": 75,
+      "hit_rate": 80.0,
+      "survival_rate": 98.67,
+      "avg_reduction": 23.35,
+      "composite_score": 67.64
+    },
+    "row_distribution": {
+      "name": "Distribuição por Linhas",
+      "total_tests": 75,
+      "hit_rate": 5.33,
+      "survival_rate": 32.0,
+      "avg_reduction": 95.91,
+      "composite_score": 47.7
+    },
+    "col_distribution": {
+      "name": "Distribuição por Colunas",
+      "total_tests": 75,
+      "hit_rate": 0.0,
+      "survival_rate": 24.0,
+      "avg_reduction": 96.09,
+      "composite_score": 43.23
+    },
+    "consecutives": {
+      "name": "Sequências Consecutivas",
+      "total_tests": 75,
+      "hit_rate": 25.33,
+      "survival_rate": 80.0,
+      "avg_reduction": 72.69,
+      "composite_score": 63.78
+    },
+    "repetitions": {
+      "name": "Repetições do Concurso Anterior",
+      "total_tests": 75,
+      "hit_rate": 64.0,
+      "survival_rate": 98.67,
+      "avg_reduction": 22.73,
+      "composite_score": 63.42
+    }
+  }
+}

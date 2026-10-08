@@ -1,0 +1,1769 @@
+{
+  "transitions": {
+    "parity": {
+      "name": "Paridade (Ímpares / Pares)",
+      "transitions": [
+        {
+          "from_state": "8I-7P",
+          "to_state": "8I-7P",
+          "count": 385,
+          "total_from": 1184,
+          "probability": 32.5
+        },
+        {
+          "from_state": "8I-7P",
+          "to_state": "7I-8P",
+          "count": 298,
+          "total_from": 1184,
+          "probability": 25.2
+        },
+        {
+          "from_state": "8I-7P",
+          "to_state": "9I-6P",
+          "count": 236,
+          "total_from": 1184,
+          "probability": 19.9
+        },
+        {
+          "from_state": "7I-8P",
+          "to_state": "8I-7P",
+          "count": 297,
+          "total_from": 961,
+          "probability": 30.9
+        },
+        {
+          "from_state": "7I-8P",
+          "to_state": "7I-8P",
+          "count": 247,
+          "total_from": 961,
+          "probability": 25.7
+        },
+        {
+          "from_state": "7I-8P",
+          "to_state": "9I-6P",
+          "count": 198,
+          "total_from": 961,
+          "probability": 20.6
+        },
+        {
+          "from_state": "9I-6P",
+          "to_state": "8I-7P",
+          "count": 272,
+          "total_from": 778,
+          "probability": 35.0
+        },
+        {
+          "from_state": "9I-6P",
+          "to_state": "7I-8P",
+          "count": 192,
+          "total_from": 778,
+          "probability": 24.7
+        },
+        {
+          "from_state": "9I-6P",
+          "to_state": "9I-6P",
+          "count": 149,
+          "total_from": 778,
+          "probability": 19.2
+        },
+        {
+          "from_state": "6I-9P",
+          "to_state": "9I-6P",
+          "count": 107,
+          "total_from": 430,
+          "probability": 24.9
+        },
+        {
+          "from_state": "6I-9P",
+          "to_state": "7I-8P",
+          "count": 106,
+          "total_from": 430,
+          "probability": 24.7
+        },
+        {
+          "from_state": "6I-9P",
+          "to_state": "8I-7P",
+          "count": 104,
+          "total_from": 430,
+          "probability": 24.2
+        },
+        {
+          "from_state": "10I-5P",
+          "to_state": "8I-7P",
+          "count": 81,
+          "total_from": 270,
+          "probability": 30.0
+        },
+        {
+          "from_state": "10I-5P",
+          "to_state": "7I-8P",
+          "count": 73,
+          "total_from": 270,
+          "probability": 27.0
+        },
+        {
+          "from_state": "10I-5P",
+          "to_state": "9I-6P",
+          "count": 57,
+          "total_from": 270,
+          "probability": 21.1
+        }
+      ]
+    },
+    "sum_range": {
+      "name": "Faixa de Soma (de 10 em 10)",
+      "transitions": [
+        {
+          "from_state": "190-199",
+          "to_state": "190-199",
+          "count": 160,
+          "total_from": 802,
+          "probability": 20.0
+        },
+        {
+          "from_state": "190-199",
+          "to_state": "180-189",
+          "count": 155,
+          "total_from": 802,
+          "probability": 19.3
+        },
+        {
+          "from_state": "190-199",
+          "to_state": "200-209",
+          "count": 132,
+          "total_from": 802,
+          "probability": 16.5
+        },
+        {
+          "from_state": "180-189",
+          "to_state": "180-189",
+          "count": 162,
+          "total_from": 742,
+          "probability": 21.8
+        },
+        {
+          "from_state": "180-189",
+          "to_state": "190-199",
+          "count": 155,
+          "total_from": 742,
+          "probability": 20.9
+        },
+        {
+          "from_state": "180-189",
+          "to_state": "200-209",
+          "count": 141,
+          "total_from": 742,
+          "probability": 19.0
+        },
+        {
+          "from_state": "200-209",
+          "to_state": "190-199",
+          "count": 136,
+          "total_from": 669,
+          "probability": 20.3
+        },
+        {
+          "from_state": "200-209",
+          "to_state": "180-189",
+          "count": 123,
+          "total_from": 669,
+          "probability": 18.4
+        },
+        {
+          "from_state": "200-209",
+          "to_state": "200-209",
+          "count": 118,
+          "total_from": 669,
+          "probability": 17.6
+        },
+        {
+          "from_state": "210-219",
+          "to_state": "190-199",
+          "count": 108,
+          "total_from": 504,
+          "probability": 21.4
+        },
+        {
+          "from_state": "210-219",
+          "to_state": "180-189",
+          "count": 103,
+          "total_from": 504,
+          "probability": 20.4
+        },
+        {
+          "from_state": "210-219",
+          "to_state": "200-209",
+          "count": 97,
+          "total_from": 504,
+          "probability": 19.2
+        },
+        {
+          "from_state": "170-179",
+          "to_state": "190-199",
+          "count": 101,
+          "total_from": 448,
+          "probability": 22.5
+        },
+        {
+          "from_state": "170-179",
+          "to_state": "180-189",
+          "count": 87,
+          "total_from": 448,
+          "probability": 19.4
+        },
+        {
+          "from_state": "170-179",
+          "to_state": "200-209",
+          "count": 85,
+          "total_from": 448,
+          "probability": 19.0
+        }
+      ]
+    },
+    "primes": {
+      "name": "Números Primos",
+      "transitions": [
+        {
+          "from_state": "5",
+          "to_state": "5",
+          "count": 380,
+          "total_from": 1172,
+          "probability": 32.4
+        },
+        {
+          "from_state": "5",
+          "to_state": "6",
+          "count": 323,
+          "total_from": 1172,
+          "probability": 27.6
+        },
+        {
+          "from_state": "5",
+          "to_state": "4",
+          "count": 215,
+          "total_from": 1172,
+          "probability": 18.3
+        },
+        {
+          "from_state": "6",
+          "to_state": "5",
+          "count": 329,
+          "total_from": 1100,
+          "probability": 29.9
+        },
+        {
+          "from_state": "6",
+          "to_state": "6",
+          "count": 313,
+          "total_from": 1100,
+          "probability": 28.5
+        },
+        {
+          "from_state": "6",
+          "to_state": "4",
+          "count": 186,
+          "total_from": 1100,
+          "probability": 16.9
+        },
+        {
+          "from_state": "4",
+          "to_state": "5",
+          "count": 208,
+          "total_from": 651,
+          "probability": 32.0
+        },
+        {
+          "from_state": "4",
+          "to_state": "6",
+          "count": 194,
+          "total_from": 651,
+          "probability": 29.8
+        },
+        {
+          "from_state": "4",
+          "to_state": "4",
+          "count": 104,
+          "total_from": 651,
+          "probability": 16.0
+        },
+        {
+          "from_state": "7",
+          "to_state": "6",
+          "count": 164,
+          "total_from": 527,
+          "probability": 31.1
+        },
+        {
+          "from_state": "7",
+          "to_state": "5",
+          "count": 164,
+          "total_from": 527,
+          "probability": 31.1
+        },
+        {
+          "from_state": "7",
+          "to_state": "4",
+          "count": 82,
+          "total_from": 527,
+          "probability": 15.6
+        },
+        {
+          "from_state": "3",
+          "to_state": "6",
+          "count": 64,
+          "total_from": 177,
+          "probability": 36.2
+        },
+        {
+          "from_state": "3",
+          "to_state": "5",
+          "count": 44,
+          "total_from": 177,
+          "probability": 24.9
+        },
+        {
+          "from_state": "3",
+          "to_state": "4",
+          "count": 33,
+          "total_from": 177,
+          "probability": 18.6
+        }
+      ]
+    },
+    "fibonacci": {
+      "name": "Números de Fibonacci",
+      "transitions": [
+        {
+          "from_state": "4",
+          "to_state": "4",
+          "count": 439,
+          "total_from": 1294,
+          "probability": 33.9
+        },
+        {
+          "from_state": "4",
+          "to_state": "5",
+          "count": 377,
+          "total_from": 1294,
+          "probability": 29.1
+        },
+        {
+          "from_state": "4",
+          "to_state": "3",
+          "count": 247,
+          "total_from": 1294,
+          "probability": 19.1
+        },
+        {
+          "from_state": "5",
+          "to_state": "4",
+          "count": 358,
+          "total_from": 1054,
+          "probability": 34.0
+        },
+        {
+          "from_state": "5",
+          "to_state": "5",
+          "count": 296,
+          "total_from": 1054,
+          "probability": 28.1
+        },
+        {
+          "from_state": "5",
+          "to_state": "3",
+          "count": 218,
+          "total_from": 1054,
+          "probability": 20.7
+        },
+        {
+          "from_state": "3",
+          "to_state": "4",
+          "count": 235,
+          "total_from": 744,
+          "probability": 31.6
+        },
+        {
+          "from_state": "3",
+          "to_state": "5",
+          "count": 212,
+          "total_from": 744,
+          "probability": 28.5
+        },
+        {
+          "from_state": "3",
+          "to_state": "3",
+          "count": 146,
+          "total_from": 744,
+          "probability": 19.6
+        },
+        {
+          "from_state": "6",
+          "to_state": "4",
+          "count": 152,
+          "total_from": 402,
+          "probability": 37.8
+        },
+        {
+          "from_state": "6",
+          "to_state": "5",
+          "count": 95,
+          "total_from": 402,
+          "probability": 23.6
+        },
+        {
+          "from_state": "6",
+          "to_state": "3",
+          "count": 78,
+          "total_from": 402,
+          "probability": 19.4
+        },
+        {
+          "from_state": "2",
+          "to_state": "4",
+          "count": 87,
+          "total_from": 222,
+          "probability": 39.2
+        },
+        {
+          "from_state": "2",
+          "to_state": "5",
+          "count": 62,
+          "total_from": 222,
+          "probability": 27.9
+        },
+        {
+          "from_state": "2",
+          "to_state": "3",
+          "count": 40,
+          "total_from": 222,
+          "probability": 18.0
+        }
+      ]
+    },
+    "multiples_of_3": {
+      "name": "Múltiplos de 3",
+      "transitions": [
+        {
+          "from_state": "5",
+          "to_state": "5",
+          "count": 410,
+          "total_from": 1277,
+          "probability": 32.1
+        },
+        {
+          "from_state": "5",
+          "to_state": "4",
+          "count": 339,
+          "total_from": 1277,
+          "probability": 26.5
+        },
+        {
+          "from_state": "5",
+          "to_state": "6",
+          "count": 264,
+          "total_from": 1277,
+          "probability": 20.7
+        },
+        {
+          "from_state": "4",
+          "to_state": "5",
+          "count": 336,
+          "total_from": 1023,
+          "probability": 32.8
+        },
+        {
+          "from_state": "4",
+          "to_state": "4",
+          "count": 297,
+          "total_from": 1023,
+          "probability": 29.0
+        },
+        {
+          "from_state": "4",
+          "to_state": "6",
+          "count": 184,
+          "total_from": 1023,
+          "probability": 18.0
+        },
+        {
+          "from_state": "6",
+          "to_state": "5",
+          "count": 259,
+          "total_from": 728,
+          "probability": 35.6
+        },
+        {
+          "from_state": "6",
+          "to_state": "4",
+          "count": 179,
+          "total_from": 728,
+          "probability": 24.6
+        },
+        {
+          "from_state": "6",
+          "to_state": "6",
+          "count": 149,
+          "total_from": 728,
+          "probability": 20.5
+        },
+        {
+          "from_state": "3",
+          "to_state": "5",
+          "count": 142,
+          "total_from": 400,
+          "probability": 35.5
+        },
+        {
+          "from_state": "3",
+          "to_state": "4",
+          "count": 115,
+          "total_from": 400,
+          "probability": 28.7
+        },
+        {
+          "from_state": "3",
+          "to_state": "6",
+          "count": 71,
+          "total_from": 400,
+          "probability": 17.8
+        },
+        {
+          "from_state": "7",
+          "to_state": "5",
+          "count": 86,
+          "total_from": 236,
+          "probability": 36.4
+        },
+        {
+          "from_state": "7",
+          "to_state": "4",
+          "count": 65,
+          "total_from": 236,
+          "probability": 27.5
+        },
+        {
+          "from_state": "7",
+          "to_state": "6",
+          "count": 38,
+          "total_from": 236,
+          "probability": 16.1
+        }
+      ]
+    },
+    "border": {
+      "name": "Moldura (Borda)",
+      "transitions": [
+        {
+          "from_state": "10",
+          "to_state": "10",
+          "count": 368,
+          "total_from": 1186,
+          "probability": 31.0
+        },
+        {
+          "from_state": "10",
+          "to_state": "9",
+          "count": 350,
+          "total_from": 1186,
+          "probability": 29.5
+        },
+        {
+          "from_state": "10",
+          "to_state": "11",
+          "count": 214,
+          "total_from": 1186,
+          "probability": 18.0
+        },
+        {
+          "from_state": "9",
+          "to_state": "10",
+          "count": 348,
+          "total_from": 1126,
+          "probability": 30.9
+        },
+        {
+          "from_state": "9",
+          "to_state": "9",
+          "count": 340,
+          "total_from": 1126,
+          "probability": 30.2
+        },
+        {
+          "from_state": "9",
+          "to_state": "11",
+          "count": 183,
+          "total_from": 1126,
+          "probability": 16.3
+        },
+        {
+          "from_state": "11",
+          "to_state": "10",
+          "count": 213,
+          "total_from": 653,
+          "probability": 32.6
+        },
+        {
+          "from_state": "11",
+          "to_state": "9",
+          "count": 193,
+          "total_from": 653,
+          "probability": 29.6
+        },
+        {
+          "from_state": "11",
+          "to_state": "11",
+          "count": 108,
+          "total_from": 653,
+          "probability": 16.5
+        },
+        {
+          "from_state": "8",
+          "to_state": "9",
+          "count": 147,
+          "total_from": 464,
+          "probability": 31.7
+        },
+        {
+          "from_state": "8",
+          "to_state": "10",
+          "count": 141,
+          "total_from": 464,
+          "probability": 30.4
+        },
+        {
+          "from_state": "8",
+          "to_state": "11",
+          "count": 82,
+          "total_from": 464,
+          "probability": 17.7
+        },
+        {
+          "from_state": "12",
+          "to_state": "10",
+          "count": 67,
+          "total_from": 189,
+          "probability": 35.4
+        },
+        {
+          "from_state": "12",
+          "to_state": "9",
+          "count": 62,
+          "total_from": 189,
+          "probability": 32.8
+        },
+        {
+          "from_state": "12",
+          "to_state": "11",
+          "count": 28,
+          "total_from": 189,
+          "probability": 14.8
+        }
+      ]
+    },
+    "row_distribution": {
+      "name": "Distribuição por Linhas",
+      "transitions": [
+        {
+          "from_state": "3-3-3-3-3",
+          "to_state": "3-3-2-3-4",
+          "count": 4,
+          "total_from": 106,
+          "probability": 3.8
+        },
+        {
+          "from_state": "3-3-3-3-3",
+          "to_state": "3-4-2-3-3",
+          "count": 4,
+          "total_from": 106,
+          "probability": 3.8
+        },
+        {
+          "from_state": "3-3-3-3-3",
+          "to_state": "2-3-4-3-3",
+          "count": 4,
+          "total_from": 106,
+          "probability": 3.8
+        },
+        {
+          "from_state": "3-4-3-2-3",
+          "to_state": "3-3-4-2-3",
+          "count": 4,
+          "total_from": 72,
+          "probability": 5.6
+        },
+        {
+          "from_state": "3-4-3-2-3",
+          "to_state": "3-3-3-3-3",
+          "count": 3,
+          "total_from": 72,
+          "probability": 4.2
+        },
+        {
+          "from_state": "3-4-3-2-3",
+          "to_state": "3-2-4-3-3",
+          "count": 3,
+          "total_from": 72,
+          "probability": 4.2
+        },
+        {
+          "from_state": "3-3-4-2-3",
+          "to_state": "4-3-3-2-3",
+          "count": 4,
+          "total_from": 72,
+          "probability": 5.6
+        },
+        {
+          "from_state": "3-3-4-2-3",
+          "to_state": "3-2-3-4-3",
+          "count": 4,
+          "total_from": 72,
+          "probability": 5.6
+        },
+        {
+          "from_state": "3-3-4-2-3",
+          "to_state": "3-3-3-3-3",
+          "count": 3,
+          "total_from": 72,
+          "probability": 4.2
+        },
+        {
+          "from_state": "4-3-3-2-3",
+          "to_state": "3-4-3-2-3",
+          "count": 4,
+          "total_from": 66,
+          "probability": 6.1
+        },
+        {
+          "from_state": "4-3-3-2-3",
+          "to_state": "4-3-3-3-2",
+          "count": 2,
+          "total_from": 66,
+          "probability": 3.0
+        },
+        {
+          "from_state": "4-3-3-2-3",
+          "to_state": "4-2-3-3-3",
+          "count": 2,
+          "total_from": 66,
+          "probability": 3.0
+        },
+        {
+          "from_state": "3-2-3-3-4",
+          "to_state": "3-2-4-3-3",
+          "count": 3,
+          "total_from": 63,
+          "probability": 4.8
+        },
+        {
+          "from_state": "3-2-3-3-4",
+          "to_state": "3-3-3-2-4",
+          "count": 3,
+          "total_from": 63,
+          "probability": 4.8
+        },
+        {
+          "from_state": "3-2-3-3-4",
+          "to_state": "3-3-3-3-3",
+          "count": 3,
+          "total_from": 63,
+          "probability": 4.8
+        }
+      ]
+    },
+    "col_distribution": {
+      "name": "Distribuição por Colunas",
+      "transitions": [
+        {
+          "from_state": "3-3-3-3-3",
+          "to_state": "4-3-2-3-3",
+          "count": 5,
+          "total_from": 121,
+          "probability": 4.1
+        },
+        {
+          "from_state": "3-3-3-3-3",
+          "to_state": "3-2-4-3-3",
+          "count": 4,
+          "total_from": 121,
+          "probability": 3.3
+        },
+        {
+          "from_state": "3-3-3-3-3",
+          "to_state": "3-4-3-2-3",
+          "count": 4,
+          "total_from": 121,
+          "probability": 3.3
+        },
+        {
+          "from_state": "3-2-4-3-3",
+          "to_state": "3-2-3-3-4",
+          "count": 5,
+          "total_from": 75,
+          "probability": 6.7
+        },
+        {
+          "from_state": "3-2-4-3-3",
+          "to_state": "3-3-2-4-3",
+          "count": 3,
+          "total_from": 75,
+          "probability": 4.0
+        },
+        {
+          "from_state": "3-2-4-3-3",
+          "to_state": "2-3-4-3-3",
+          "count": 3,
+          "total_from": 75,
+          "probability": 4.0
+        },
+        {
+          "from_state": "3-3-3-4-2",
+          "to_state": "3-3-3-2-4",
+          "count": 4,
+          "total_from": 65,
+          "probability": 6.2
+        },
+        {
+          "from_state": "3-3-3-4-2",
+          "to_state": "3-3-3-3-3",
+          "count": 3,
+          "total_from": 65,
+          "probability": 4.6
+        },
+        {
+          "from_state": "3-3-3-4-2",
+          "to_state": "2-3-4-3-3",
+          "count": 3,
+          "total_from": 65,
+          "probability": 4.6
+        },
+        {
+          "from_state": "3-2-3-4-3",
+          "to_state": "2-4-2-3-4",
+          "count": 3,
+          "total_from": 63,
+          "probability": 4.8
+        },
+        {
+          "from_state": "3-2-3-4-3",
+          "to_state": "3-2-3-4-3",
+          "count": 3,
+          "total_from": 63,
+          "probability": 4.8
+        },
+        {
+          "from_state": "3-2-3-4-3",
+          "to_state": "4-3-2-4-2",
+          "count": 2,
+          "total_from": 63,
+          "probability": 3.2
+        },
+        {
+          "from_state": "4-2-3-3-3",
+          "to_state": "3-3-2-4-3",
+          "count": 4,
+          "total_from": 63,
+          "probability": 6.3
+        },
+        {
+          "from_state": "4-2-3-3-3",
+          "to_state": "3-3-2-3-4",
+          "count": 3,
+          "total_from": 63,
+          "probability": 4.8
+        },
+        {
+          "from_state": "4-2-3-3-3",
+          "to_state": "4-3-3-2-3",
+          "count": 2,
+          "total_from": 63,
+          "probability": 3.2
+        }
+      ]
+    },
+    "consecutives": {
+      "name": "Sequências Consecutivas",
+      "transitions": [
+        {
+          "from_state": "max_4-pairs_8",
+          "to_state": "max_4-pairs_8",
+          "count": 83,
+          "total_from": 509,
+          "probability": 16.3
+        },
+        {
+          "from_state": "max_4-pairs_8",
+          "to_state": "max_5-pairs_9",
+          "count": 57,
+          "total_from": 509,
+          "probability": 11.2
+        },
+        {
+          "from_state": "max_4-pairs_8",
+          "to_state": "max_5-pairs_8",
+          "count": 41,
+          "total_from": 509,
+          "probability": 8.1
+        },
+        {
+          "from_state": "max_5-pairs_9",
+          "to_state": "max_4-pairs_8",
+          "count": 55,
+          "total_from": 349,
+          "probability": 15.8
+        },
+        {
+          "from_state": "max_5-pairs_9",
+          "to_state": "max_5-pairs_8",
+          "count": 34,
+          "total_from": 349,
+          "probability": 9.7
+        },
+        {
+          "from_state": "max_5-pairs_9",
+          "to_state": "max_4-pairs_9",
+          "count": 33,
+          "total_from": 349,
+          "probability": 9.5
+        },
+        {
+          "from_state": "max_5-pairs_8",
+          "to_state": "max_4-pairs_8",
+          "count": 43,
+          "total_from": 334,
+          "probability": 12.9
+        },
+        {
+          "from_state": "max_5-pairs_8",
+          "to_state": "max_5-pairs_8",
+          "count": 36,
+          "total_from": 334,
+          "probability": 10.8
+        },
+        {
+          "from_state": "max_5-pairs_8",
+          "to_state": "max_5-pairs_9",
+          "count": 28,
+          "total_from": 334,
+          "probability": 8.4
+        },
+        {
+          "from_state": "max_4-pairs_9",
+          "to_state": "max_4-pairs_8",
+          "count": 39,
+          "total_from": 291,
+          "probability": 13.4
+        },
+        {
+          "from_state": "max_4-pairs_9",
+          "to_state": "max_5-pairs_9",
+          "count": 31,
+          "total_from": 291,
+          "probability": 10.7
+        },
+        {
+          "from_state": "max_4-pairs_9",
+          "to_state": "max_4-pairs_7",
+          "count": 28,
+          "total_from": 291,
+          "probability": 9.6
+        },
+        {
+          "from_state": "max_4-pairs_7",
+          "to_state": "max_4-pairs_8",
+          "count": 35,
+          "total_from": 264,
+          "probability": 13.3
+        },
+        {
+          "from_state": "max_4-pairs_7",
+          "to_state": "max_5-pairs_8",
+          "count": 23,
+          "total_from": 264,
+          "probability": 8.7
+        },
+        {
+          "from_state": "max_4-pairs_7",
+          "to_state": "max_5-pairs_9",
+          "count": 20,
+          "total_from": 264,
+          "probability": 7.6
+        }
+      ]
+    },
+    "repetitions": {
+      "name": "Repetições do Concurso Anterior",
+      "transitions": [
+        {
+          "from_state": "9",
+          "to_state": "9",
+          "count": 417,
+          "total_from": 1226,
+          "probability": 34.0
+        },
+        {
+          "from_state": "9",
+          "to_state": "8",
+          "count": 293,
+          "total_from": 1226,
+          "probability": 23.9
+        },
+        {
+          "from_state": "9",
+          "to_state": "10",
+          "count": 254,
+          "total_from": 1226,
+          "probability": 20.7
+        },
+        {
+          "from_state": "8",
+          "to_state": "9",
+          "count": 296,
+          "total_from": 929,
+          "probability": 31.9
+        },
+        {
+          "from_state": "8",
+          "to_state": "8",
+          "count": 233,
+          "total_from": 929,
+          "probability": 25.1
+        },
+        {
+          "from_state": "8",
+          "to_state": "10",
+          "count": 202,
+          "total_from": 929,
+          "probability": 21.7
+        },
+        {
+          "from_state": "10",
+          "to_state": "9",
+          "count": 261,
+          "total_from": 830,
+          "probability": 31.4
+        },
+        {
+          "from_state": "10",
+          "to_state": "8",
+          "count": 206,
+          "total_from": 830,
+          "probability": 24.8
+        },
+        {
+          "from_state": "10",
+          "to_state": "10",
+          "count": 187,
+          "total_from": 830,
+          "probability": 22.5
+        },
+        {
+          "from_state": "7",
+          "to_state": "9",
+          "count": 109,
+          "total_from": 352,
+          "probability": 31.0
+        },
+        {
+          "from_state": "7",
+          "to_state": "8",
+          "count": 95,
+          "total_from": 352,
+          "probability": 27.0
+        },
+        {
+          "from_state": "7",
+          "to_state": "10",
+          "count": 75,
+          "total_from": 352,
+          "probability": 21.3
+        },
+        {
+          "from_state": "11",
+          "to_state": "9",
+          "count": 103,
+          "total_from": 317,
+          "probability": 32.5
+        },
+        {
+          "from_state": "11",
+          "to_state": "10",
+          "count": 84,
+          "total_from": 317,
+          "probability": 26.5
+        },
+        {
+          "from_state": "11",
+          "to_state": "8",
+          "count": 70,
+          "total_from": 317,
+          "probability": 22.1
+        }
+      ]
+    }
+  },
+  "autocorrelation": {
+    "parity": {
+      "name": "Paridade (Ímpares / Pares)",
+      "is_numeric": false,
+      "lags": [
+        {
+          "lag": 1,
+          "match_rate": 22.94
+        },
+        {
+          "lag": 2,
+          "match_rate": 22.42
+        },
+        {
+          "lag": 3,
+          "match_rate": 21.0
+        },
+        {
+          "lag": 4,
+          "match_rate": 21.98
+        },
+        {
+          "lag": 5,
+          "match_rate": 22.38
+        },
+        {
+          "lag": 6,
+          "match_rate": 21.78
+        },
+        {
+          "lag": 7,
+          "match_rate": 22.42
+        },
+        {
+          "lag": 8,
+          "match_rate": 23.44
+        },
+        {
+          "lag": 9,
+          "match_rate": 22.41
+        },
+        {
+          "lag": 10,
+          "match_rate": 22.65
+        }
+      ]
+    },
+    "sum_range": {
+      "name": "Faixa de Soma (de 10 em 10)",
+      "is_numeric": false,
+      "lags": [
+        {
+          "lag": 1,
+          "match_rate": 15.16
+        },
+        {
+          "lag": 2,
+          "match_rate": 14.77
+        },
+        {
+          "lag": 3,
+          "match_rate": 15.22
+        },
+        {
+          "lag": 4,
+          "match_rate": 15.62
+        },
+        {
+          "lag": 5,
+          "match_rate": 15.36
+        },
+        {
+          "lag": 6,
+          "match_rate": 15.79
+        },
+        {
+          "lag": 7,
+          "match_rate": 15.11
+        },
+        {
+          "lag": 8,
+          "match_rate": 15.22
+        },
+        {
+          "lag": 9,
+          "match_rate": 15.96
+        },
+        {
+          "lag": 10,
+          "match_rate": 15.41
+        }
+      ]
+    },
+    "primes": {
+      "name": "Números Primos",
+      "is_numeric": true,
+      "lags": [
+        {
+          "lag": 1,
+          "correlation": -0.004
+        },
+        {
+          "lag": 2,
+          "correlation": 0.021
+        },
+        {
+          "lag": 3,
+          "correlation": -0.014
+        },
+        {
+          "lag": 4,
+          "correlation": -0.001
+        },
+        {
+          "lag": 5,
+          "correlation": 0.021
+        },
+        {
+          "lag": 6,
+          "correlation": 0.035
+        },
+        {
+          "lag": 7,
+          "correlation": -0.005
+        },
+        {
+          "lag": 8,
+          "correlation": -0.009
+        },
+        {
+          "lag": 9,
+          "correlation": 0.015
+        },
+        {
+          "lag": 10,
+          "correlation": -0.034
+        }
+      ]
+    },
+    "fibonacci": {
+      "name": "Números de Fibonacci",
+      "is_numeric": true,
+      "lags": [
+        {
+          "lag": 1,
+          "correlation": -0.005
+        },
+        {
+          "lag": 2,
+          "correlation": 0.038
+        },
+        {
+          "lag": 3,
+          "correlation": -0.006
+        },
+        {
+          "lag": 4,
+          "correlation": -0.007
+        },
+        {
+          "lag": 5,
+          "correlation": -0.006
+        },
+        {
+          "lag": 6,
+          "correlation": -0.011
+        },
+        {
+          "lag": 7,
+          "correlation": 0.03
+        },
+        {
+          "lag": 8,
+          "correlation": -0.003
+        },
+        {
+          "lag": 9,
+          "correlation": 0.004
+        },
+        {
+          "lag": 10,
+          "correlation": 0.005
+        }
+      ]
+    },
+    "multiples_of_3": {
+      "name": "Múltiplos de 3",
+      "is_numeric": true,
+      "lags": [
+        {
+          "lag": 1,
+          "correlation": -0.01
+        },
+        {
+          "lag": 2,
+          "correlation": 0.001
+        },
+        {
+          "lag": 3,
+          "correlation": -0.024
+        },
+        {
+          "lag": 4,
+          "correlation": 0.012
+        },
+        {
+          "lag": 5,
+          "correlation": 0.002
+        },
+        {
+          "lag": 6,
+          "correlation": 0.006
+        },
+        {
+          "lag": 7,
+          "correlation": 0.027
+        },
+        {
+          "lag": 8,
+          "correlation": -0.005
+        },
+        {
+          "lag": 9,
+          "correlation": 0.009
+        },
+        {
+          "lag": 10,
+          "correlation": -0.0
+        }
+      ]
+    },
+    "border": {
+      "name": "Moldura (Borda)",
+      "is_numeric": true,
+      "lags": [
+        {
+          "lag": 1,
+          "correlation": 0.013
+        },
+        {
+          "lag": 2,
+          "correlation": 0.01
+        },
+        {
+          "lag": 3,
+          "correlation": 0.005
+        },
+        {
+          "lag": 4,
+          "correlation": -0.01
+        },
+        {
+          "lag": 5,
+          "correlation": -0.015
+        },
+        {
+          "lag": 6,
+          "correlation": -0.033
+        },
+        {
+          "lag": 7,
+          "correlation": 0.02
+        },
+        {
+          "lag": 8,
+          "correlation": -0.018
+        },
+        {
+          "lag": 9,
+          "correlation": -0.003
+        },
+        {
+          "lag": 10,
+          "correlation": 0.013
+        }
+      ]
+    },
+    "row_distribution": {
+      "name": "Distribuição por Linhas",
+      "is_numeric": false,
+      "lags": [
+        {
+          "lag": 1,
+          "match_rate": 0.85
+        },
+        {
+          "lag": 2,
+          "match_rate": 0.77
+        },
+        {
+          "lag": 3,
+          "match_rate": 0.69
+        },
+        {
+          "lag": 4,
+          "match_rate": 0.85
+        },
+        {
+          "lag": 5,
+          "match_rate": 1.03
+        },
+        {
+          "lag": 6,
+          "match_rate": 1.09
+        },
+        {
+          "lag": 7,
+          "match_rate": 0.66
+        },
+        {
+          "lag": 8,
+          "match_rate": 0.93
+        },
+        {
+          "lag": 9,
+          "match_rate": 0.74
+        },
+        {
+          "lag": 10,
+          "match_rate": 0.61
+        }
+      ]
+    },
+    "col_distribution": {
+      "name": "Distribuição por Colunas",
+      "is_numeric": false,
+      "lags": [
+        {
+          "lag": 1,
+          "match_rate": 0.64
+        },
+        {
+          "lag": 2,
+          "match_rate": 0.56
+        },
+        {
+          "lag": 3,
+          "match_rate": 0.66
+        },
+        {
+          "lag": 4,
+          "match_rate": 1.06
+        },
+        {
+          "lag": 5,
+          "match_rate": 0.66
+        },
+        {
+          "lag": 6,
+          "match_rate": 0.95
+        },
+        {
+          "lag": 7,
+          "match_rate": 0.9
+        },
+        {
+          "lag": 8,
+          "match_rate": 0.85
+        },
+        {
+          "lag": 9,
+          "match_rate": 1.19
+        },
+        {
+          "lag": 10,
+          "match_rate": 0.82
+        }
+      ]
+    },
+    "consecutives": {
+      "name": "Sequências Consecutivas",
+      "is_numeric": false,
+      "lags": [
+        {
+          "lag": 1,
+          "match_rate": 6.83
+        },
+        {
+          "lag": 2,
+          "match_rate": 6.51
+        },
+        {
+          "lag": 3,
+          "match_rate": 6.33
+        },
+        {
+          "lag": 4,
+          "match_rate": 5.11
+        },
+        {
+          "lag": 5,
+          "match_rate": 5.99
+        },
+        {
+          "lag": 6,
+          "match_rate": 6.04
+        },
+        {
+          "lag": 7,
+          "match_rate": 6.18
+        },
+        {
+          "lag": 8,
+          "match_rate": 5.65
+        },
+        {
+          "lag": 9,
+          "match_rate": 5.73
+        },
+        {
+          "lag": 10,
+          "match_rate": 6.15
+        }
+      ]
+    },
+    "repetitions": {
+      "name": "Repetições do Concurso Anterior",
+      "is_numeric": true,
+      "lags": [
+        {
+          "lag": 1,
+          "correlation": 0.03
+        },
+        {
+          "lag": 2,
+          "correlation": -0.017
+        },
+        {
+          "lag": 3,
+          "correlation": -0.008
+        },
+        {
+          "lag": 4,
+          "correlation": -0.026
+        },
+        {
+          "lag": 5,
+          "correlation": -0.018
+        },
+        {
+          "lag": 6,
+          "correlation": -0.02
+        },
+        {
+          "lag": 7,
+          "correlation": 0.014
+        },
+        {
+          "lag": 8,
+          "correlation": -0.019
+        },
+        {
+          "lag": 9,
+          "correlation": -0.026
+        },
+        {
+          "lag": 10,
+          "correlation": 0.005
+        }
+      ]
+    }
+  },
+  "eras": [
+    {
+      "era_index": 1,
+      "label": "Era 1: Concursos 1 a 1260",
+      "sample_size": 1260,
+      "stats": {
+        "parity": {
+          "name": "Paridade (Ímpares / Pares)",
+          "most_common_value": "8I-7P",
+          "frequency_pct": 31.1,
+          "unique_values_count": 9
+        },
+        "sum_range": {
+          "name": "Faixa de Soma (de 10 em 10)",
+          "most_common_value": "190-199",
+          "frequency_pct": 21.6,
+          "unique_values_count": 11
+        },
+        "primes": {
+          "name": "Números Primos",
+          "most_common_value": "5",
+          "frequency_pct": 32.9,
+          "unique_values_count": 8
+        },
+        "fibonacci": {
+          "name": "Números de Fibonacci",
+          "most_common_value": "4",
+          "frequency_pct": 34.3,
+          "unique_values_count": 7
+        },
+        "multiples_of_3": {
+          "name": "Múltiplos de 3",
+          "most_common_value": "5",
+          "frequency_pct": 32.9,
+          "unique_values_count": 7
+        },
+        "border": {
+          "name": "Moldura (Borda)",
+          "most_common_value": "10",
+          "frequency_pct": 31.5,
+          "unique_values_count": 8
+        },
+        "row_distribution": {
+          "name": "Distribuição por Linhas",
+          "most_common_value": "3-3-3-3-3",
+          "frequency_pct": 2.9,
+          "unique_values_count": 267
+        },
+        "col_distribution": {
+          "name": "Distribuição por Colunas",
+          "most_common_value": "3-3-3-3-3",
+          "frequency_pct": 3.3,
+          "unique_values_count": 276
+        },
+        "consecutives": {
+          "name": "Sequências Consecutivas",
+          "most_common_value": "max_4-pairs_8",
+          "frequency_pct": 12.5,
+          "unique_values_count": 49
+        },
+        "repetitions": {
+          "name": "Repetições do Concurso Anterior",
+          "most_common_value": "9",
+          "frequency_pct": 34.1,
+          "unique_values_count": 10
+        }
+      }
+    },
+    {
+      "era_index": 2,
+      "label": "Era 2: Concursos 1261 a 2520",
+      "sample_size": 1260,
+      "stats": {
+        "parity": {
+          "name": "Paridade (Ímpares / Pares)",
+          "most_common_value": "8I-7P",
+          "frequency_pct": 31.4,
+          "unique_values_count": 8
+        },
+        "sum_range": {
+          "name": "Faixa de Soma (de 10 em 10)",
+          "most_common_value": "190-199",
+          "frequency_pct": 22.8,
+          "unique_values_count": 12
+        },
+        "primes": {
+          "name": "Números Primos",
+          "most_common_value": "6",
+          "frequency_pct": 32.0,
+          "unique_values_count": 9
+        },
+        "fibonacci": {
+          "name": "Números de Fibonacci",
+          "most_common_value": "4",
+          "frequency_pct": 35.5,
+          "unique_values_count": 7
+        },
+        "multiples_of_3": {
+          "name": "Múltiplos de 3",
+          "most_common_value": "5",
+          "frequency_pct": 32.6,
+          "unique_values_count": 8
+        },
+        "border": {
+          "name": "Moldura (Borda)",
+          "most_common_value": "10",
+          "frequency_pct": 32.1,
+          "unique_values_count": 9
+        },
+        "row_distribution": {
+          "name": "Distribuição por Linhas",
+          "most_common_value": "3-3-3-3-3",
+          "frequency_pct": 2.9,
+          "unique_values_count": 277
+        },
+        "col_distribution": {
+          "name": "Distribuição por Colunas",
+          "most_common_value": "3-3-3-3-3",
+          "frequency_pct": 2.9,
+          "unique_values_count": 287
+        },
+        "consecutives": {
+          "name": "Sequências Consecutivas",
+          "most_common_value": "max_4-pairs_8",
+          "frequency_pct": 13.5,
+          "unique_values_count": 45
+        },
+        "repetitions": {
+          "name": "Repetições do Concurso Anterior",
+          "most_common_value": "9",
+          "frequency_pct": 30.9,
+          "unique_values_count": 8
+        }
+      }
+    },
+    {
+      "era_index": 3,
+      "label": "Era 3: Concursos 2521 a 3781",
+      "sample_size": 1261,
+      "stats": {
+        "parity": {
+          "name": "Paridade (Ímpares / Pares)",
+          "most_common_value": "8I-7P",
+          "frequency_pct": 31.5,
+          "unique_values_count": 8
+        },
+        "sum_range": {
+          "name": "Faixa de Soma (de 10 em 10)",
+          "most_common_value": "180-189",
+          "frequency_pct": 19.8,
+          "unique_values_count": 12
+        },
+        "primes": {
+          "name": "Números Primos",
+          "most_common_value": "5",
+          "frequency_pct": 31.7,
+          "unique_values_count": 10
+        },
+        "fibonacci": {
+          "name": "Números de Fibonacci",
+          "most_common_value": "4",
+          "frequency_pct": 32.9,
+          "unique_values_count": 7
+        },
+        "multiples_of_3": {
+          "name": "Múltiplos de 3",
+          "most_common_value": "5",
+          "frequency_pct": 35.9,
+          "unique_values_count": 8
+        },
+        "border": {
+          "name": "Moldura (Borda)",
+          "most_common_value": "9",
+          "frequency_pct": 31.0,
+          "unique_values_count": 8
+        },
+        "row_distribution": {
+          "name": "Distribuição por Linhas",
+          "most_common_value": "3-3-3-3-3",
+          "frequency_pct": 2.6,
+          "unique_values_count": 282
+        },
+        "col_distribution": {
+          "name": "Distribuição por Colunas",
+          "most_common_value": "3-3-3-3-3",
+          "frequency_pct": 3.4,
+          "unique_values_count": 279
+        },
+        "consecutives": {
+          "name": "Sequências Consecutivas",
+          "most_common_value": "max_4-pairs_8",
+          "frequency_pct": 14.4,
+          "unique_values_count": 47
+        },
+        "repetitions": {
+          "name": "Repetições do Concurso Anterior",
+          "most_common_value": "9",
+          "frequency_pct": 32.4,
+          "unique_values_count": 8
+        }
+      }
+    }
+  ]
+}
