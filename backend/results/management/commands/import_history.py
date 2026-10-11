@@ -59,7 +59,11 @@ class Command(BaseCommand):
                             f"Falha após 3 tentativas no concurso {number}."
                         ) from error
 
-                    time.sleep(max(delay, attempt * 2))
+                    if error.retry_after > 300:
+                        raise CommandError(
+                            "Retry-After excede 300 segundos; retome mais tarde."
+                        ) from error
+                    time.sleep(max(delay, attempt * 2, error.retry_after))
 
                 except CommandError:
                     raise

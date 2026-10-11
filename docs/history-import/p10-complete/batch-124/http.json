@@ -1,0 +1,3148 @@
+[
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil",
+    "at": "2026-10-11T15:02:37.903514+00:00",
+    "interval": null,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "09/10/2026",
+      "dataProximoConcurso": "11/10/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "15",
+        "13",
+        "19",
+        "11",
+        "04",
+        "20",
+        "23",
+        "09",
+        "08",
+        "07",
+        "03",
+        "24",
+        "17",
+        "12",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "04",
+        "07",
+        "08",
+        "09",
+        "11",
+        "12",
+        "13",
+        "15",
+        "17",
+        "19",
+        "20",
+        "21",
+        "23",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO SEGURO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SAO JOSE DOS PINHAIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ALTA FLORESTA D'OESTE",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO ALEGRE",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RS"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 322726.1
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 427,
+          "valorPremio": 905.56
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 11083,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 116474,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 560223,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3801,
+      "numeroConcursoAnterior": 3800,
+      "numeroConcursoFinal_0_5": 3810,
+      "numeroConcursoProximo": 3802,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 20357470.0,
+      "valorAcumuladoConcurso_0_5": 208210.39,
+      "valorAcumuladoConcursoEspecial": 9759712.2,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3458",
+    "at": "2026-10-11T15:02:40.502620+00:00",
+    "interval": 2.599089667026419,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "01/08/2025",
+      "dataProximoConcurso": "02/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "05",
+        "10",
+        "25",
+        "07",
+        "11",
+        "18",
+        "04",
+        "03",
+        "23",
+        "08",
+        "16",
+        "20",
+        "02",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "14",
+        "16",
+        "18",
+        "20",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ITAPEVI",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 4476638.1
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 652,
+          "valorPremio": 1261.64
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 14636,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 173045,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 923634,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3458,
+      "numeroConcursoAnterior": 3457,
+      "numeroConcursoFinal_0_5": 3460,
+      "numeroConcursoProximo": 3459,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 35916779.5,
+      "valorAcumuladoConcurso_0_5": 2372709.21,
+      "valorAcumuladoConcursoEspecial": 127179662.81,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3459",
+    "at": "2026-10-11T15:02:42.760211+00:00",
+    "interval": 2.257576957985293,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "02/08/2025",
+      "dataProximoConcurso": "04/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "06",
+        "19",
+        "23",
+        "25",
+        "03",
+        "17",
+        "18",
+        "15",
+        "12",
+        "01",
+        "05",
+        "20",
+        "07",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "05",
+        "06",
+        "07",
+        "12",
+        "14",
+        "15",
+        "17",
+        "18",
+        "19",
+        "20",
+        "22",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "DELFINOPOLIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1622650.59
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 293,
+          "valorPremio": 1658.86
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 9884,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 104122,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 540465,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3459,
+      "numeroConcursoAnterior": 3458,
+      "numeroConcursoFinal_0_5": 3460,
+      "numeroConcursoProximo": 3460,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 21296481.5,
+      "valorAcumuladoConcurso_0_5": 2634427.04,
+      "valorAcumuladoConcursoEspecial": 127572239.58,
+      "valorAcumuladoProximoConcurso": 2634427.04,
+      "valorEstimadoProximoConcurso": 6500000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3460",
+    "at": "2026-10-11T15:02:45.001735+00:00",
+    "interval": 2.241510332969483,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "04/08/2025",
+      "dataProximoConcurso": "05/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "02",
+        "23",
+        "19",
+        "04",
+        "16",
+        "18",
+        "01",
+        "08",
+        "11",
+        "17",
+        "12",
+        "03",
+        "25",
+        "06",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "06",
+        "08",
+        "11",
+        "12",
+        "16",
+        "17",
+        "18",
+        "19",
+        "22",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CAMACARI",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ANAPOLIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "GO"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 3413036.6
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 339,
+          "valorPremio": 2232.52
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 13017,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 171108,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 911439,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3460,
+      "numeroConcursoAnterior": 3459,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3461,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 40072935.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 128445499.2,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3461",
+    "at": "2026-10-11T15:02:47.279527+00:00",
+    "interval": 2.2777781250188127,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "05/08/2025",
+      "dataProximoConcurso": "06/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "06",
+        "10",
+        "25",
+        "13",
+        "05",
+        "04",
+        "03",
+        "23",
+        "21",
+        "11",
+        "08",
+        "19",
+        "09",
+        "18",
+        "02"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "08",
+        "09",
+        "10",
+        "11",
+        "13",
+        "18",
+        "19",
+        "21",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 248,
+          "valorPremio": 1620.38
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 9578,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 118443,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 603061,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3461,
+      "numeroConcursoAnterior": 3460,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3462,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 21251541.5,
+      "valorAcumuladoConcurso_0_5": 216383.37,
+      "valorAcumuladoConcursoEspecial": 128770074.26,
+      "valorAcumuladoProximoConcurso": 1341576.91,
+      "valorEstimadoProximoConcurso": 5000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3462",
+    "at": "2026-10-11T15:02:49.538274+00:00",
+    "interval": 2.258733167022001,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "06/08/2025",
+      "dataProximoConcurso": "07/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "25",
+        "17",
+        "13",
+        "16",
+        "24",
+        "19",
+        "01",
+        "20",
+        "10",
+        "18",
+        "15",
+        "02",
+        "09",
+        "14",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "09",
+        "10",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "22",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "JOINVILLE",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "GUARULHOS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 1117843.62
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 344,
+          "valorPremio": 1907.7
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 13050,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 162791,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 920363,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3462,
+      "numeroConcursoAnterior": 3461,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3463,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 37428363.0,
+      "valorAcumuladoConcurso_0_5": 721189.43,
+      "valorAcumuladoConcursoEspecial": 129527283.37,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3463",
+    "at": "2026-10-11T15:02:52.246021+00:00",
+    "interval": 2.707730458001606,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "07/08/2025",
+      "dataProximoConcurso": "08/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "08",
+        "16",
+        "06",
+        "02",
+        "17",
+        "15",
+        "18",
+        "14",
+        "22",
+        "01",
+        "07",
+        "21",
+        "04",
+        "19"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "04",
+        "06",
+        "07",
+        "08",
+        "11",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 1072445.99
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 190,
+          "valorPremio": 2367.03
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 6183,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 79209,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 446088,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3463,
+      "numeroConcursoAnterior": 3462,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3464,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 21443467.5,
+      "valorAcumuladoConcurso_0_5": 1067139.75,
+      "valorAcumuladoConcursoEspecial": 130046208.85,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3464",
+    "at": "2026-10-11T15:02:54.493341+00:00",
+    "interval": 2.2473060420015827,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "08/08/2025",
+      "dataProximoConcurso": "09/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "20",
+        "21",
+        "25",
+        "06",
+        "11",
+        "15",
+        "01",
+        "18",
+        "04",
+        "13",
+        "16",
+        "03",
+        "14",
+        "22",
+        "17"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "04",
+        "06",
+        "11",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "20",
+        "21",
+        "22",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 159,
+          "valorPremio": 2596.18
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 6788,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 92204,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 549776,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3464,
+      "numeroConcursoAnterior": 3463,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3465,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 22637699.0,
+      "valorAcumuladoConcurso_0_5": 1384672.37,
+      "valorAcumuladoConcursoEspecial": 130522507.8,
+      "valorAcumuladoProximoConcurso": 1968702.29,
+      "valorEstimadoProximoConcurso": 6000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3465",
+    "at": "2026-10-11T15:02:57.267130+00:00",
+    "interval": 2.773771707958076,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "09/08/2025",
+      "dataProximoConcurso": "11/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "22",
+        "09",
+        "06",
+        "01",
+        "11",
+        "04",
+        "12",
+        "14",
+        "21",
+        "05",
+        "18",
+        "17",
+        "15",
+        "24",
+        "10"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "04",
+        "05",
+        "06",
+        "09",
+        "10",
+        "11",
+        "12",
+        "14",
+        "15",
+        "17",
+        "18",
+        "21",
+        "22",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SAO FIDELIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 2601452.45
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 467,
+          "valorPremio": 2074.45
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 13442,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 158536,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 857371,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3465,
+      "numeroConcursoAnterior": 3464,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3466,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 36866067.0,
+      "valorAcumuladoConcurso_0_5": 1906317.95,
+      "valorAcumuladoConcursoEspecial": 131304976.18,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3466",
+    "at": "2026-10-11T15:02:59.925870+00:00",
+    "interval": 2.6587241670349613,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "11/08/2025",
+      "dataProximoConcurso": "12/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "12",
+        "10",
+        "21",
+        "01",
+        "18",
+        "07",
+        "05",
+        "19",
+        "17",
+        "09",
+        "24",
+        "25",
+        "23",
+        "06",
+        "15"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10",
+        "12",
+        "15",
+        "17",
+        "18",
+        "19",
+        "21",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 240,
+          "valorPremio": 1839.76
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 9167,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 112211,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 571647,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3466,
+      "numeroConcursoAnterior": 3465,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3467,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 21214487.0,
+      "valorAcumuladoConcurso_0_5": 2144072.66,
+      "valorAcumuladoConcursoEspecial": 131661608.25,
+      "valorAcumuladoProximoConcurso": 1474079.2,
+      "valorEstimadoProximoConcurso": 5000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3467",
+    "at": "2026-10-11T15:03:02.184466+00:00",
+    "interval": 2.2585824580164626,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "12/08/2025",
+      "dataProximoConcurso": "13/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "03",
+        "20",
+        "25",
+        "19",
+        "09",
+        "06",
+        "04",
+        "21",
+        "16",
+        "05",
+        "07",
+        "18",
+        "14",
+        "13",
+        "08"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "13",
+        "14",
+        "16",
+        "18",
+        "19",
+        "20",
+        "21",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ITUIUTABA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BURITIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "RIBEIRAO PIRES",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 1525501.47
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 309,
+          "valorPremio": 2105.21
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 11004,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 144582,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 828138,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3467,
+      "numeroConcursoAnterior": 3466,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3468,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 35064396.5,
+      "valorAcumuladoConcurso_0_5": 2644463.82,
+      "valorAcumuladoConcursoEspecial": 132412195.01,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3468",
+    "at": "2026-10-11T15:03:04.439554+00:00",
+    "interval": 2.2550728749483824,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "13/08/2025",
+      "dataProximoConcurso": "14/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "12",
+        "24",
+        "03",
+        "06",
+        "09",
+        "10",
+        "04",
+        "18",
+        "21",
+        "19",
+        "01",
+        "25",
+        "13",
+        "14",
+        "23"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "04",
+        "06",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14",
+        "18",
+        "19",
+        "21",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "OLINDA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "EMBU DAS ARTES",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "JUNDIAI",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SAO PAULO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 274124.1
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 353,
+          "valorPremio": 1163.04
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 9702,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 103907,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 528537,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3468,
+      "numeroConcursoAnterior": 3467,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3469,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 19758252.5,
+      "valorAcumuladoConcurso_0_5": 2865531.64,
+      "valorAcumuladoConcursoEspecial": 132743796.76,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3469",
+    "at": "2026-10-11T15:03:07.194179+00:00",
+    "interval": 2.7546090420219116,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "14/08/2025",
+      "dataProximoConcurso": "15/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "06",
+        "12",
+        "01",
+        "08",
+        "22",
+        "18",
+        "21",
+        "07",
+        "15",
+        "17",
+        "13",
+        "11",
+        "24",
+        "05",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "05",
+        "06",
+        "07",
+        "08",
+        "11",
+        "12",
+        "13",
+        "15",
+        "17",
+        "18",
+        "21",
+        "22",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1472926.26
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 262,
+          "valorPremio": 1683.96
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 8306,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 97835,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 502237,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3469,
+      "numeroConcursoAnterior": 3468,
+      "numeroConcursoFinal_0_5": 3470,
+      "numeroConcursoProximo": 3470,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 19570446.0,
+      "valorAcumuladoConcurso_0_5": 3103100.39,
+      "valorAcumuladoConcursoEspecial": 133100149.89,
+      "valorAcumuladoProximoConcurso": 3103100.39,
+      "valorEstimadoProximoConcurso": 7500000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3470",
+    "at": "2026-10-11T15:03:09.464705+00:00",
+    "interval": 2.2705114579875953,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "15/08/2025",
+      "dataProximoConcurso": "16/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "18",
+        "24",
+        "05",
+        "07",
+        "10",
+        "21",
+        "23",
+        "22",
+        "14",
+        "08",
+        "13",
+        "04",
+        "20",
+        "12",
+        "01"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "04",
+        "05",
+        "07",
+        "08",
+        "10",
+        "12",
+        "13",
+        "14",
+        "18",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PASSOS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 6697985.94
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 441,
+          "valorPremio": 2102.61
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 15168,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 188126,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 989253,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3470,
+      "numeroConcursoAnterior": 3469,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3471,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 39328898.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 133849084.39,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3471",
+    "at": "2026-10-11T15:03:11.719173+00:00",
+    "interval": 2.2544554590131156,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "16/08/2025",
+      "dataProximoConcurso": "18/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "25",
+        "02",
+        "16",
+        "23",
+        "05",
+        "19",
+        "22",
+        "03",
+        "24",
+        "06",
+        "21",
+        "01",
+        "17",
+        "11",
+        "13"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "05",
+        "06",
+        "11",
+        "13",
+        "16",
+        "17",
+        "19",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1504911.32
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 229,
+          "valorPremio": 1968.47
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 8531,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 112826,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 544814,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3471,
+      "numeroConcursoAnterior": 3470,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3472,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 20916612.5,
+      "valorAcumuladoConcurso_0_5": 242727.64,
+      "valorAcumuladoConcursoEspecial": 134213175.86,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3472",
+    "at": "2026-10-11T15:03:13.991565+00:00",
+    "interval": 2.2723778749932535,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "18/08/2025",
+      "dataProximoConcurso": "19/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "02",
+        "07",
+        "23",
+        "18",
+        "03",
+        "24",
+        "12",
+        "15",
+        "19",
+        "25",
+        "13",
+        "21",
+        "10",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "05",
+        "07",
+        "10",
+        "11",
+        "12",
+        "13",
+        "15",
+        "18",
+        "19",
+        "21",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 350,
+          "valorPremio": 838.1
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 13186,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 126527,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 604820,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3472,
+      "numeroConcursoAnterior": 3471,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3473,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 19920215.0,
+      "valorAcumuladoConcurso_0_5": 400678.02,
+      "valorAcumuladoConcursoEspecial": 134450101.45,
+      "valorAcumuladoProximoConcurso": 979292.42,
+      "valorEstimadoProximoConcurso": 4000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3473",
+    "at": "2026-10-11T15:03:16.233971+00:00",
+    "interval": 2.242392208019737,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "19/08/2025",
+      "dataProximoConcurso": "20/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "09",
+        "05",
+        "23",
+        "25",
+        "19",
+        "04",
+        "13",
+        "06",
+        "07",
+        "12",
+        "17",
+        "03",
+        "02",
+        "18"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "09",
+        "12",
+        "13",
+        "14",
+        "17",
+        "18",
+        "19",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRASILIA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ITAUNA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPO GRANDE",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "TERESINA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PI"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "COTIA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 607659.64
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 498,
+          "valorPremio": 1238.45
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 15869,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 175043,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 848441,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3473,
+      "numeroConcursoAnterior": 3472,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3474,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 31261377.0,
+      "valorAcumuladoConcurso_0_5": 732775.73,
+      "valorAcumuladoConcursoEspecial": 134948248.03,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3474",
+    "at": "2026-10-11T15:03:18.515237+00:00",
+    "interval": 2.28125183301745,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "20/08/2025",
+      "dataProximoConcurso": "21/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "12",
+        "04",
+        "15",
+        "25",
+        "10",
+        "01",
+        "14",
+        "21",
+        "13",
+        "20",
+        "09",
+        "08",
+        "19",
+        "06",
+        "18"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "04",
+        "06",
+        "08",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14",
+        "15",
+        "18",
+        "19",
+        "20",
+        "21",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 767416.72
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 192,
+          "valorPremio": 2394.49
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 7148,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 88745,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 479031,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3474,
+      "numeroConcursoAnterior": 3473,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3475,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 19142063.5,
+      "valorAcumuladoConcurso_0_5": 980329.51,
+      "valorAcumuladoConcursoEspecial": 135319578.71,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3475",
+    "at": "2026-10-11T15:03:20.788216+00:00",
+    "interval": 2.272963916999288,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "21/08/2025",
+      "dataProximoConcurso": "22/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "22",
+        "01",
+        "23",
+        "06",
+        "05",
+        "04",
+        "14",
+        "18",
+        "20",
+        "25",
+        "21",
+        "15",
+        "03",
+        "24",
+        "11"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "04",
+        "05",
+        "06",
+        "11",
+        "14",
+        "15",
+        "18",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 191,
+          "valorPremio": 2221.2
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 7203,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 90941,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 471023,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3475,
+      "numeroConcursoAnterior": 3474,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3476,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 18465188.0,
+      "valorAcumuladoConcurso_0_5": 1208772.11,
+      "valorAcumuladoConcursoEspecial": 135662242.64,
+      "valorAcumuladoProximoConcurso": 1416344.16,
+      "valorEstimadoProximoConcurso": 5000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3476",
+    "at": "2026-10-11T15:03:23.065701+00:00",
+    "interval": 2.2774725419585593,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "22/08/2025",
+      "dataProximoConcurso": "23/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "03",
+        "15",
+        "19",
+        "25",
+        "05",
+        "20",
+        "08",
+        "07",
+        "17",
+        "06",
+        "23",
+        "12",
+        "24",
+        "10",
+        "16"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "05",
+        "06",
+        "07",
+        "08",
+        "10",
+        "12",
+        "15",
+        "16",
+        "17",
+        "19",
+        "20",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SAO LUIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "TOBIAS BARRETO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SE"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 2033503.06
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 330,
+          "valorPremio": 2405.99
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 12632,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 154225,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 822890,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3476,
+      "numeroConcursoAnterior": 3475,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3477,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 33041827.0,
+      "valorAcumuladoConcurso_0_5": 1636298.23,
+      "valorAcumuladoConcursoEspecial": 136303531.83,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3477",
+    "at": "2026-10-11T15:03:25.298079+00:00",
+    "interval": 2.232364499999676,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "23/08/2025",
+      "dataProximoConcurso": "25/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "05",
+        "02",
+        "16",
+        "03",
+        "21",
+        "12",
+        "18",
+        "25",
+        "24",
+        "20",
+        "06",
+        "17",
+        "23",
+        "15",
+        "08"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "05",
+        "06",
+        "08",
+        "12",
+        "15",
+        "16",
+        "17",
+        "18",
+        "20",
+        "21",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MASSARANDUBA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SC"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1420288.62
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 314,
+          "valorPremio": 1354.87
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 10041,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 104029,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 510914,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3477,
+      "numeroConcursoAnterior": 3476,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3478,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 19768882.0,
+      "valorAcumuladoConcurso_0_5": 1865377.04,
+      "valorAcumuladoConcursoEspecial": 136647150.05,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3478",
+    "at": "2026-10-11T15:03:27.561323+00:00",
+    "interval": 2.2632296660449356,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "25/08/2025",
+      "dataProximoConcurso": "26/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "15",
+        "01",
+        "12",
+        "24",
+        "10",
+        "05",
+        "07",
+        "09",
+        "04",
+        "22",
+        "21",
+        "06",
+        "14",
+        "17",
+        "08"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "12",
+        "14",
+        "15",
+        "17",
+        "21",
+        "22",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BELO HORIZONTE",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1713470.68
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 154,
+          "valorPremio": 2332.96
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 6438,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 75372,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 451854,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3478,
+      "numeroConcursoAnterior": 3477,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3479,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 19163291.0,
+      "valorAcumuladoConcurso_0_5": 2141743.28,
+      "valorAcumuladoConcursoEspecial": 137061699.42,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3479",
+    "at": "2026-10-11T15:03:29.812724+00:00",
+    "interval": 2.251387416967191,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "26/08/2025",
+      "dataProximoConcurso": "06/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "16",
+        "10",
+        "09",
+        "01",
+        "18",
+        "19",
+        "05",
+        "08",
+        "12",
+        "25",
+        "06",
+        "24",
+        "15",
+        "13",
+        "23"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "05",
+        "06",
+        "08",
+        "09",
+        "10",
+        "12",
+        "13",
+        "15",
+        "16",
+        "18",
+        "19",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 255,
+          "valorPremio": 1463.32
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 8475,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 99430,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 500141,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,   SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3479,
+      "numeroConcursoAnterior": 3478,
+      "numeroConcursoFinal_0_5": 3480,
+      "numeroConcursoProximo": 3480,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 18406045.0,
+      "valorAcumuladoConcurso_0_5": 143294170.67,
+      "valorAcumuladoConcursoEspecial": 143294170.67,
+      "valorAcumuladoProximoConcurso": 143294170.67,
+      "valorEstimadoProximoConcurso": 220000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3480",
+    "at": "2026-10-11T15:03:32.061927+00:00",
+    "interval": 2.249188542016782,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "06/09/2025",
+      "dataProximoConcurso": "08/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "23",
+        "06",
+        "15",
+        "08",
+        "17",
+        "20",
+        "16",
+        "21",
+        "05",
+        "03",
+        "12",
+        "09",
+        "13",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 2,
+      "listaDezenas": [
+        "03",
+        "05",
+        "06",
+        "08",
+        "09",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 8,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "ES"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MS"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PB"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PE"
+        },
+        {
+          "ganhadores": 5,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RN"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 20,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 54,
+          "valorPremio": 4293824.84
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 9661,
+          "valorPremio": 2008.81
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 301854,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3539490,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 18955181,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3480,
+      "numeroConcursoAnterior": 3479,
+      "numeroConcursoFinal_0_5": 3490,
+      "numeroConcursoProximo": 3481,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 781205292.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3481",
+    "at": "2026-10-11T15:03:34.312668+00:00",
+    "interval": 2.25072808295954,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "08/09/2025",
+      "dataProximoConcurso": "09/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "13",
+        "23",
+        "07",
+        "10",
+        "03",
+        "04",
+        "22",
+        "02",
+        "24",
+        "05",
+        "21",
+        "01",
+        "14",
+        "19",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "09",
+        "10",
+        "13",
+        "14",
+        "19",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CONTAGEM",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPO NOVO DO PARECIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MT"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 896148.61
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 215,
+          "valorPremio": 1747.93
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 9334,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 118732,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 640481,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3481,
+      "numeroConcursoAnterior": 3480,
+      "numeroConcursoFinal_0_5": 3490,
+      "numeroConcursoProximo": 3482,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 24211057.5,
+      "valorAcumuladoConcurso_0_5": 289080.19,
+      "valorAcumuladoConcursoEspecial": 433620.31,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3482",
+    "at": "2026-10-11T15:03:36.567284+00:00",
+    "interval": 2.2546022500027902,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "09/09/2025",
+      "dataProximoConcurso": "10/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "25",
+        "17",
+        "15",
+        "24",
+        "09",
+        "13",
+        "01",
+        "04",
+        "10",
+        "22",
+        "20",
+        "19",
+        "05",
+        "02",
+        "14"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "04",
+        "05",
+        "09",
+        "10",
+        "13",
+        "14",
+        "15",
+        "17",
+        "19",
+        "20",
+        "22",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "JUNDIAI",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 724370.11
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 419,
+          "valorPremio": 1035.69
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 14676,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 136061,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 631675,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3482,
+      "numeroConcursoAnterior": 3481,
+      "numeroConcursoFinal_0_5": 3490,
+      "numeroConcursoProximo": 3483,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 23243549.0,
+      "valorAcumuladoConcurso_0_5": 522747.97,
+      "valorAcumuladoConcursoEspecial": 784121.98,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  }
+]

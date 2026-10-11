@@ -1,3 +1,6 @@
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+
 import requests
 from django.core.exceptions import ValidationError
 from django.core.management.base import BaseCommand, CommandError
@@ -10,6 +13,27 @@ BASE_URL = "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil"
 
 class TransientImportError(CommandError):
     """Erro temporário que permite novas tentativas."""
+
+    def __init__(self, message, *, retry_after=0):
+        super().__init__(message)
+        self.retry_after = retry_after
+
+
+def retry_after_seconds(value):
+    """Parse a server delay without changing the local retry policy."""
+    if not isinstance(value, str):
+        return 0
+    value = value.strip()
+    if value.isascii() and value.isdigit():
+        # Avoid converting arbitrarily large untrusted integers.
+        return int(value) if len(value) < 10 else 301
+    try:
+        deadline = parsedate_to_datetime(value)
+        if deadline.tzinfo is None:
+            return 0
+        return max(0, (deadline - datetime.now(timezone.utc)).total_seconds())
+    except ValueError, TypeError, OverflowError:
+        return 0
 
 
 class Command(BaseCommand):
@@ -54,7 +78,10 @@ class Command(BaseCommand):
 
             if status_code == 429 or status_code >= 500:
                 raise TransientImportError(
-                    f"Erro temporário HTTP {status_code}"
+                    f"Erro temporário HTTP {status_code}",
+                    retry_after=retry_after_seconds(
+                        error.response.headers.get("Retry-After")
+                    ),
                 ) from error
 
             raise CommandError(f"Erro permanente HTTP {status_code}") from error

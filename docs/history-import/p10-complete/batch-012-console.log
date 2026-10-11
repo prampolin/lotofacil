@@ -1,0 +1,76 @@
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/658
+Concurso 658 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/659
+Concurso 659 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/660
+Concurso 660 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/661
+Concurso 661 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/662
+Concurso 662 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/663
+Concurso 663 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/664
+Concurso 664 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/665
+Concurso 665 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/666
+Concurso 666 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/667
+Concurso 667 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/668
+Concurso 668 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/669
+Concurso 669 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/670
+Concurso 670 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/671
+Concurso 671 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/672
+Concurso 672 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/673
+Concurso 673 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/674
+Concurso 674 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/675
+Concurso 675 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/676
+Concurso 676 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/677
+Concurso 677 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/678
+Concurso 678 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/679
+Concurso 679 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/680
+Concurso 680 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/681
+Concurso 681 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/682
+Concurso 682 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+{"before": 666, "after": 691, "added": [658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682], "preserved": true, "logs_preserved": true, "payloads_match": true, "executions": [{"id": 19, "started_at": "2026-10-11 06:55:03.415494+00:00", "finished_at": "2026-10-11 07:11:09.668465+00:00", "status": "completed", "start_contest": 658, "end_contest": 682, "processed": 25, "error_message": ""}], "error": null, "requests": 26, "min_interval": 2.25969554198673}

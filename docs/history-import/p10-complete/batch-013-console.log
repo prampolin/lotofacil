@@ -1,0 +1,78 @@
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/683
+Concurso 683: tentativa 1/3 falhou: Falha temporária de conexão: HTTPSConnectionPool(host='servicebus2.caixa.gov.br', port=443): Read timed out. (read timeout=20)
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/683
+Concurso 683 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/684
+Concurso 684 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/685
+Concurso 685 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/686
+Concurso 686 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/687
+Concurso 687 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/688
+Concurso 688 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/689
+Concurso 689 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/690
+Concurso 690 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/691
+Concurso 691 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/692
+Concurso 692 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/693
+Concurso 693 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/694
+Concurso 694 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/695
+Concurso 695 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/696
+Concurso 696 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/697
+Concurso 697 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/698
+Concurso 698 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/699
+Concurso 699 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/700
+Concurso 700 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/701
+Concurso 701 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/702
+Concurso 702 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/703
+Concurso 703 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/704
+Concurso 704 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/705
+Concurso 705 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/706
+Concurso 706 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/707
+Concurso 707 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+{"before": 691, "after": 716, "added": [683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707], "preserved": true, "logs_preserved": true, "payloads_match": true, "executions": [{"id": 20, "started_at": "2026-10-11 07:11:12.360422+00:00", "finished_at": "2026-10-11 07:36:40.294765+00:00", "status": "completed", "start_contest": 683, "end_contest": 707, "processed": 25, "error_message": ""}], "error": null, "requests": 27, "min_interval": 2.259689958009403}

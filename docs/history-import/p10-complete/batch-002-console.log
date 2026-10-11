@@ -1,0 +1,76 @@
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/408
+Concurso 408 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/409
+Concurso 409 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/410
+Concurso 410 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/411
+Concurso 411 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/412
+Concurso 412 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/413
+Concurso 413 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/414
+Concurso 414 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/415
+Concurso 415 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/416
+Concurso 416 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/417
+Concurso 417 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/418
+Concurso 418 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/419
+Concurso 419 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/420
+Concurso 420 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/421
+Concurso 421 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/422
+Concurso 422 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/423
+Concurso 423 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/424
+Concurso 424 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/425
+Concurso 425 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/426
+Concurso 426 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/427
+Concurso 427 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/428
+Concurso 428 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/429
+Concurso 429 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/430
+Concurso 430 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/431
+Concurso 431 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/432
+Concurso 432 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+{"before": 416, "after": 441, "added": [408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432], "preserved": true, "logs_preserved": true, "payloads_match": true, "executions": [{"id": 9, "started_at": "2026-10-11 05:28:42.747136+00:00", "finished_at": "2026-10-11 05:29:43.401722+00:00", "status": "completed", "start_contest": 408, "end_contest": 432, "processed": 25, "error_message": ""}], "error": null, "requests": 26, "min_interval": 2.2256587090087123}

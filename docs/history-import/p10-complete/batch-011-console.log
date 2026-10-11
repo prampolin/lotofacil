@@ -1,0 +1,78 @@
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/633
+Concurso 633: tentativa 1/3 falhou: Falha temporária de conexão: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/633
+Concurso 633 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/634
+Concurso 634 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/635
+Concurso 635 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/636
+Concurso 636 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/637
+Concurso 637 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/638
+Concurso 638 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/639
+Concurso 639 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/640
+Concurso 640 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/641
+Concurso 641 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/642
+Concurso 642 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/643
+Concurso 643 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/644
+Concurso 644 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/645
+Concurso 645 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/646
+Concurso 646 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/647
+Concurso 647 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/648
+Concurso 648 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/649
+Concurso 649 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/650
+Concurso 650 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/651
+Concurso 651 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/652
+Concurso 652 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/653
+Concurso 653 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/654
+Concurso 654 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/655
+Concurso 655 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/656
+Concurso 656 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/657
+Concurso 657 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+{"before": 641, "after": 666, "added": [633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657], "preserved": true, "logs_preserved": true, "payloads_match": true, "executions": [{"id": 18, "started_at": "2026-10-11 06:23:51.970872+00:00", "finished_at": "2026-10-11 06:55:00.457259+00:00", "status": "completed", "start_contest": 633, "end_contest": 657, "processed": 25, "error_message": ""}], "error": null, "requests": 27, "min_interval": 2.2747147500049323}

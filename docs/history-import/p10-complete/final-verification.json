@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "total": 3801,
+  "missing": 0,
+  "imported": 3410,
+  "batches": 137,
+  "original_preserved": 391,
+  "logs": 144,
+  "batch_http_calls": 3556,
+  "min_interval_seconds": 2.1998364580213092,
+  "database_equals_final_snapshot": true,
+  "network_errors_recovered": 9,
+  "http_error_responses": 0
+}

@@ -138,3 +138,49 @@ Evidências persistentes em [p10-1/](history-import/p10-1/): `before.json`, `aft
 Gates em backend, todos exit 0: `ruff check .` → All checks passed!; `ruff format --check .` → 39 files already formatted; `python manage.py check` → System check identified no issues (0 silenced).; `python -m pytest -q` → **118 passed in 1.99s**. Pytest-django usou banco de testes isolado e HTTP mockado. Gates executados durante o lote, sem alteração de código; a validação final do banco ocorreu após a conclusão.
 
 **Encerrado após este lote.** Histórico completo permanece pendente; qualquer próxima importação requer nova autorização.
+
+## P10.2 — Segundo lote concluído (2026-10-11)
+
+Autorização limitada a 258–282. Executado `sync_history --start 258 --batch-size 25 --limit 25 --delay 2`, exit 0, sob advisory lock existente e proteção operacional de URLs/intervalos. Snapshots em transações READ ONLY antes/depois.
+
+- **DONE:** 25 concursos importados; total 266 → 291. SyncExecution id=3 completed, processed=25, erro vazio.
+- 26 HTTP 200, zero retries/falhas; intervalo mínimo 2.258s.
+- Todos os campos dos 266 registros e dos 2 logs anteriores preservados. Novos resultados coincidem com datas/dezenas dos payloads Caixa. Todos os 291 registros passaram na validação do modelo e ordenação.
+- Último informado nesta execução: 3801; ausentes até esse snapshot: 3510. Nenhum lote adicional iniciado.
+- Gates: Ruff check All checks passed!; format 44 files already formatted; Django check 0 issues; pytest 148 passed in 5.04s (banco isolado, HTTP mockado); todos exit 0.
+- Evidências: docs/history-import/p10-2/ (before.json, after.json, http.json, execution.log, verification.json). Nenhuma alteração funcional adicional/migration/deploy; alterações P12 preservadas.
+
+## P10.3 — Lote 283–307 (2026-10-11)
+
+- **DONE:** `sync_history --start 283 --batch-size 25 --limit 25 --delay 2` concluído, exit 0. Total 291 → 316; SyncExecution id=4 completed, processed=25, erro vazio.
+- 26 respostas HTTP 200, zero retries/falhas, intervalo mínimo 2.243s. Os 291 concursos e 3 logs anteriores foram preservados integralmente; 25 novos resultados conferidos contra payloads Caixa. Validação estrutural e ordenação dos 316 registros passaram.
+- Último informado: 3801; 3485 ausentes até esse snapshot. Nenhum lote posterior iniciado. Evidências em docs/history-import/p10-3/: before.json, after.json, http.json, execution.log e verification.json.
+- Gates reais: Ruff check All checks passed!; format 44 files already formatted; Django check 0 issues; pytest 148 passed in 4.60s; todos exit 0. Testes em banco pytest-django isolado, HTTP mockado. `git diff --check` exit 0; sem alteração funcional adicional, migration ou deploy.
+
+## P10.4 — Lote 308–332 (2026-10-11)
+
+- **DONE:** `sync_history --start 308 --batch-size 25 --limit 25 --delay 2` concluído, exit 0. Total 316 → 341; SyncExecution id=5 completed, processed=25, erro vazio.
+- 26 HTTP 200, zero retries/falhas, intervalo mínimo 2.245s. Preservados integralmente 316 concursos e 4 logs anteriores; datas/dezenas dos 25 novos coincidem com payloads Caixa. Validação estrutural e ordenação dos 341 registros passaram.
+- Último informado nesta execução: 3801; 3460 ausentes até esse snapshot. Evidências em docs/history-import/p10-4/ (before.json, after.json, http.json, execution.log, verification.json). Nenhum lote posterior iniciado.
+- Gates: Ruff check All checks passed!; format 44 files already formatted; Django check 0 issues; pytest 148 passed in 4.21s, todos exit 0. Banco pytest-django isolado e HTTP mockado nos testes. git diff --check exit 0. Sem alteração funcional adicional/migration/deploy; alterações anteriores preservadas.
+
+## P10.5 — Lote 333–357 (2026-10-11)
+
+- **DONE:** `sync_history --start 333 --batch-size 25 --limit 25 --delay 2` concluído, exit 0. Total 341 → 366; SyncExecution id=6 completed, processed=25, erro vazio.
+- 26 HTTP 200, zero retries/falhas, intervalo mínimo 2.236s. Os 341 concursos e 5 logs anteriores foram preservados integralmente; novos resultados conferidos contra payloads Caixa. Validação estrutural e ordenação dos 366 registros passaram.
+- Último informado: 3801; 3435 ausentes até esse snapshot. Evidências em docs/history-import/p10-5/ (before.json, after.json, http.json, execution.log, verification.json). Nenhum lote posterior iniciado.
+- Gates reais: Ruff check All checks passed!; format 44 files already formatted; Django check 0 issues; pytest 148 passed in 4.52s, todos exit 0. Banco pytest-django isolado e HTTP mockado nos testes. git diff --check exit 0. Sem alteração funcional adicional, migration ou deploy; alterações anteriores preservadas.
+
+## P10.6 — Lote 358–382 (2026-10-11)
+
+- **DONE:** `sync_history --start 358 --batch-size 25 --limit 25 --delay 2` concluído, exit 0. Total 366 → 391; SyncExecution id=7 completed, processed=25, erro vazio.
+- 26 HTTP 200, zero retries/falhas, intervalo mínimo 2.237s. Os 366 concursos e 6 logs anteriores foram preservados integralmente; 25 novos resultados conferidos contra payloads Caixa. Validação estrutural e ordenação dos 391 registros passaram.
+- Último informado: 3801; 3410 ausentes até esse snapshot. Evidências em docs/history-import/p10-6/ (before.json, after.json, http.json, execution.log, verification.json). Nenhum lote posterior iniciado.
+- Gates: Ruff check All checks passed!; format 44 files already formatted; Django check 0 issues; pytest 148 passed in 4.39s; todos exit 0. Banco pytest-django isolado e HTTP mockado nos testes. git diff --check exit 0. Sem alteração funcional adicional, migration ou deploy; alterações anteriores preservadas.
+
+## P10.7 — Validação final concluída (2026-10-11)
+
+- **DONE — histórico completo no escopo 1–3801.** 137 lotes concluídos, 3410 novos concursos; total 391 → 3801, zero lacunas. Snapshot final idêntico ao PostgreSQL em transação READ ONLY; todos os registros validados e ordenados. Os 391 registros originais preservados; cadeia de snapshots e payloads dos 3410 novos conferida, 144 logs no total, nenhum running.
+- 3556 tentativas HTTP nos lotes: 3547 respostas 200 e 9 falhas transitórias de conexão/timeout recuperadas por retries. Nenhuma resposta HTTP de erro; intervalo mínimo registrado 2,200s. Mais uma consulta inicial para fixar o escopo. Não afirmar ausência de falhas de rede.
+- Gates finais: Ruff check All checks passed!; Ruff format --check 44 files already formatted; Django check 0 issues; pytest 148 passed in 4.45s, todos exit 0. Testes com Caixa mockada e banco pytest-django isolado. Verificação final exit 0; git diff --check exit 0.
+- Evidências em docs/history-import/p10-complete/: summary.json, final-verification.json, before/after.json, scope.json, progress.json e 137 diretórios de lotes com snapshots, payloads, logs e verificação. Sem novo importador, deploy, exclusão de dados ou migrations. Monitor pausado após conclusão. Concursos posteriores a 3801 não foram consultados/importados nesta validação.

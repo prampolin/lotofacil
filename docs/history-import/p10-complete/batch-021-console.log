@@ -1,0 +1,76 @@
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/883
+Concurso 883 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/884
+Concurso 884 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/885
+Concurso 885 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/886
+Concurso 886 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/887
+Concurso 887 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/888
+Concurso 888 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/889
+Concurso 889 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/890
+Concurso 890 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/891
+Concurso 891 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/892
+Concurso 892 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/893
+Concurso 893 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/894
+Concurso 894 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/895
+Concurso 895 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/896
+Concurso 896 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/897
+Concurso 897 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/898
+Concurso 898 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/899
+Concurso 899 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/900
+Concurso 900 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/901
+Concurso 901 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/902
+Concurso 902 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/903
+Concurso 903 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/904
+Concurso 904 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/905
+Concurso 905 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/906
+Concurso 906 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/907
+Concurso 907 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+{"before": 891, "after": 916, "added": [883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907], "preserved": true, "logs_preserved": true, "payloads_match": true, "executions": [{"id": 28, "started_at": "2026-10-11 10:22:13.748526+00:00", "finished_at": "2026-10-11 10:53:23.424047+00:00", "status": "completed", "start_contest": 883, "end_contest": 907, "processed": 25, "error_message": ""}], "error": null, "requests": 26, "min_interval": 2.2704111670027487}

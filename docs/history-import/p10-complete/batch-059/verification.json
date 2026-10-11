@@ -1,0 +1,49 @@
+{
+  "before": 1841,
+  "after": 1866,
+  "added": [
+    1833,
+    1834,
+    1835,
+    1836,
+    1837,
+    1838,
+    1839,
+    1840,
+    1841,
+    1842,
+    1843,
+    1844,
+    1845,
+    1846,
+    1847,
+    1848,
+    1849,
+    1850,
+    1851,
+    1852,
+    1853,
+    1854,
+    1855,
+    1856,
+    1857
+  ],
+  "preserved": true,
+  "logs_preserved": true,
+  "payloads_match": true,
+  "executions": [
+    {
+      "id": 66,
+      "started_at": "2026-10-11 13:53:26.001651+00:00",
+      "finished_at": "2026-10-11 13:54:28.147424+00:00",
+      "status": "completed",
+      "start_contest": 1833,
+      "end_contest": 1857,
+      "processed": 25,
+      "error_message": ""
+    }
+  ],
+  "error": null,
+  "requests": 26,
+  "min_interval": 2.2527592499973252
+}

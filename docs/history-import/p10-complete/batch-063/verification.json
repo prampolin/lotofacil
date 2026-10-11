@@ -1,0 +1,49 @@
+{
+  "before": 1941,
+  "after": 1966,
+  "added": [
+    1933,
+    1934,
+    1935,
+    1936,
+    1937,
+    1938,
+    1939,
+    1940,
+    1941,
+    1942,
+    1943,
+    1944,
+    1945,
+    1946,
+    1947,
+    1948,
+    1949,
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957
+  ],
+  "preserved": true,
+  "logs_preserved": true,
+  "payloads_match": true,
+  "executions": [
+    {
+      "id": 70,
+      "started_at": "2026-10-11 13:57:40.455858+00:00",
+      "finished_at": "2026-10-11 13:58:42.505019+00:00",
+      "status": "completed",
+      "start_contest": 1933,
+      "end_contest": 1957,
+      "processed": 25,
+      "error_message": ""
+    }
+  ],
+  "error": null,
+  "requests": 26,
+  "min_interval": 2.2408773750066757
+}

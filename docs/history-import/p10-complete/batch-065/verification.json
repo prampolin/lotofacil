@@ -1,0 +1,49 @@
+{
+  "before": 1991,
+  "after": 2016,
+  "added": [
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ],
+  "preserved": true,
+  "logs_preserved": true,
+  "payloads_match": true,
+  "executions": [
+    {
+      "id": 72,
+      "started_at": "2026-10-11 13:59:52.513512+00:00",
+      "finished_at": "2026-10-11 14:00:51.662560+00:00",
+      "status": "completed",
+      "start_contest": 1983,
+      "end_contest": 2007,
+      "processed": 25,
+      "error_message": ""
+    }
+  ],
+  "error": null,
+  "requests": 26,
+  "min_interval": 2.2152802500058897
+}

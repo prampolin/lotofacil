@@ -1,0 +1,31 @@
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3783
+Concurso 3783 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3784
+Concurso 3784 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3785
+Concurso 3785 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3786
+Concurso 3786 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3787
+Concurso 3787 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3788
+Concurso 3788 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3789
+Concurso 3789 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3790
+Concurso 3790 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3791
+Concurso 3791 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3801
+Concurso 3801 importado com sucesso!
+Concluído! Importados: 1 | Ignorados: 0
+{"before": 3791, "after": 3801, "added": [3783, 3784, 3785, 3786, 3787, 3788, 3789, 3790, 3791, 3801], "preserved": true, "logs_preserved": true, "payloads_match": true, "executions": [{"id": 144, "started_at": "2026-10-11 15:16:11.751196+00:00", "finished_at": "2026-10-11 15:16:35.926363+00:00", "status": "completed", "start_contest": 3783, "end_contest": 3801, "processed": 10, "error_message": ""}], "error": null, "requests": 11, "min_interval": 2.221987208991777}

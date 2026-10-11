@@ -129,3 +129,12 @@ API pública preservada; CORS não habilitado. Payloads em `/api/v1/` têm limit
 Os três comandos de importação agora compartilham advisory lock PostgreSQL de sessão: somente um importador por banco, inclusive entre processos; concorrentes falham antes da rede. Requer conexão direta ou pooling de sessão (não pooling de transação). Ctrl-C registra falha no sync quando já existe log; SIGKILL pode deixar running. Antes de retomar, confirmar término do processo e liberar qualquer autorização necessária; o comando consulta os concursos ausentes. Logs antigos não são modificados automaticamente.
 
 P11 não executou importações ou deploy e preservou os 266 concursos e 2 logs. Histórico Git ainda contém credenciais antigas: a remoção no código atual não substitui rotação coordenada nem limpeza do histórico. Relatório, medições locais e pendências operacionais: [docs/security-performance.md](docs/security-performance.md).
+
+### Espera solicitada pela Caixa
+
+`import_history` respeita `Retry-After` em erros HTTP transitórios (429/5xx),
+aceitando segundos inteiros ou data HTTP. A pausa considera o maior valor entre
+esse cabeçalho, `--delay` e o backoff existente; o limite continua em três
+tentativas. Cabeçalho inválido usa o backoff habitual. Espera solicitada acima
+de 300 segundos interrompe a execução para retomada posterior, sem antecipar a
+requisição. Validado com PostgreSQL no banco isolado do pytest-django (P12).

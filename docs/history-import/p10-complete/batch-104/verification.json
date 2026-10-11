@@ -1,0 +1,49 @@
+{
+  "before": 2966,
+  "after": 2991,
+  "added": [
+    2958,
+    2959,
+    2960,
+    2961,
+    2962,
+    2963,
+    2964,
+    2965,
+    2966,
+    2967,
+    2968,
+    2969,
+    2970,
+    2971,
+    2972,
+    2973,
+    2974,
+    2975,
+    2976,
+    2977,
+    2978,
+    2979,
+    2980,
+    2981,
+    2982
+  ],
+  "preserved": true,
+  "logs_preserved": true,
+  "payloads_match": true,
+  "executions": [
+    {
+      "id": 111,
+      "started_at": "2026-10-11 14:41:09.011630+00:00",
+      "finished_at": "2026-10-11 14:42:11.219874+00:00",
+      "status": "completed",
+      "start_contest": 2958,
+      "end_contest": 2982,
+      "processed": 25,
+      "error_message": ""
+    }
+  ],
+  "error": null,
+  "requests": 26,
+  "min_interval": 2.2412624999997206
+}
