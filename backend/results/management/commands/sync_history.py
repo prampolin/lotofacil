@@ -1,5 +1,6 @@
 import math
 import time
+from itertools import islice
 
 import requests
 from django.core.management import call_command
@@ -7,6 +8,7 @@ from django.core.management.base import BaseCommand, CommandError
 from django.utils import timezone
 
 from results.models import Contest, SyncExecution
+from results.services.import_lock import serialized_import
 
 BASE_URL = "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil"
 
@@ -49,6 +51,7 @@ class Command(BaseCommand):
             help="Simula a sincronização sem importar dados",
         )
 
+    @serialized_import
     def handle(self, *args, **options):
         start = options["start"]
         batch_size = options["batch_size"]
@@ -79,7 +82,7 @@ class Command(BaseCommand):
             response.raise_for_status()
 
             latest = response.json()["numero"]
-            if type(latest) is not int or latest < 1:
+            if type(latest) is not int or not 1 <= latest <= 2147483647:
                 raise ValueError("Número de concurso inválido.")
 
         except (
@@ -106,16 +109,17 @@ class Command(BaseCommand):
         )
 
         # Identifica os concursos ausentes
-        missing = [
+        missing_count = latest - start + 1 - len(existing)
+        missing = (
             number for number in range(start, latest + 1) if number not in existing
-        ]
+        )
 
         self.stdout.write(f"Último concurso informado: {latest}")
         self.stdout.write(f"Concursos existentes: {len(existing)}")
-        self.stdout.write(f"Concursos ausentes: {len(missing)}")
+        self.stdout.write(f"Concursos ausentes: {missing_count}")
 
         # Limita a quantidade por execução
-        selected = missing[:limit]
+        selected = list(islice(missing, limit))
 
         self.stdout.write(f"Concursos selecionados: {len(selected)}")
 
@@ -148,6 +152,8 @@ class Command(BaseCommand):
         processed = 0
 
         try:
+            # Também respeita o intervalo após a consulta ao último concurso.
+            time.sleep(delay)
             for index, batch in enumerate(batches, start=1):
                 self.stdout.write(
                     f"Lote {index}/{len(batches)}: {len(batch)} concursos"
@@ -159,6 +165,7 @@ class Command(BaseCommand):
                             "import_history",
                             start=number,
                             end=number,
+                            delay=delay,
                         )
 
                     except CommandError as error:
@@ -180,11 +187,11 @@ class Command(BaseCommand):
             execution.finished_at = timezone.now()
             execution.save(update_fields=["status", "finished_at", "processed"])
 
-        except Exception as error:
+        except (Exception, KeyboardInterrupt) as error:
             # Registra falhas sem apagar o progresso anterior
             execution.status = "failed"
             execution.finished_at = timezone.now()
-            execution.error_message = str(error)
+            execution.error_message = str(error) or type(error).__name__
 
             try:
                 execution.save(

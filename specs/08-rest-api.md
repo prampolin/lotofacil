@@ -33,3 +33,12 @@ Keep router/base prefix and DRF permission behavior as in repository; explicitly
 
 ## Acceptance
 Routes reachable, documented with curl examples and tested without external requests.
+
+## Contrato confirmado por P09 (2026-10-10)
+
+Health preserva `{"status":"ok","service":"lotofacil-api","version":"1.0.0"}` e sua view Django não restringe métodos. As views DRF rejeitam métodos não implementados com 405. Seleção vazia/concurso ausente retorna 404; entrada inválida retorna 400. Erros de domínio usam `detail`; serializers retornam erros por campo; latest vazio preserva o legado `error`. API pública, admin autenticado. Schemas completos, defaults e limites estão no README; evidências HTTP/PostgreSQL em `docs/mvp-validation.md`.
+
+
+## Proteção de payload P11
+
+Sem alterar contratos de sucesso ou acesso público, corpos maiores que 64 KiB em `/api/v1/` são rejeitados com 413 e JSON `detail` antes de parsing/serviços. Content-Length inválido retorna 400. Limite de tamanho não é rate limiting; controle de tráfego fica pendente na infraestrutura.

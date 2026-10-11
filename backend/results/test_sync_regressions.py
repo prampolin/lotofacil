@@ -9,6 +9,8 @@ from django.core.management.base import CommandError
 from results.management.commands.import_contests import TransientImportError
 from results.models import Contest, SyncExecution
 
+pytestmark = pytest.mark.django_db
+
 
 @pytest.fixture
 def network():
@@ -23,7 +25,7 @@ def test_resume_noop_and_dry_run(network):
         assert not SyncExecution.objects.exists()
         assert not Contest.objects.exists()
 
-        def importer(name, start, end):
+        def importer(name, start, end, delay):
             if start == 2:
                 raise CommandError("stop")
             Contest.objects.create(

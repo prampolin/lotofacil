@@ -1,4 +1,5 @@
 import random
+from functools import lru_cache
 
 from .statistics import DomainError, integer
 
@@ -9,6 +10,19 @@ MAX_ATTEMPTS = 10000
 def validate_seed(seed):
     if seed is not None:
         integer(seed, "seed", -(2**63), 2**63 - 1)
+
+
+@lru_cache(maxsize=1)
+def reachable_pairs():
+    # Exact reachable (odd_count, sum) pairs for a 15-number subset.
+    reachable = {(0, 0, 0)}
+    for n in range(1, 26):
+        reachable |= {
+            (size + 1, odd + n % 2, total + n)
+            for size, odd, total in reachable
+            if size < 15
+        }
+    return frozenset(reachable)
 
 
 def validate_constraints(constraints):
@@ -32,19 +46,11 @@ def validate_constraints(constraints):
         or applied["sum_min"] > applied["sum_max"]
     ):
         raise DomainError("Mínimos não podem exceder máximos.")
-    # Exact reachable (odd_count, sum) pairs for a 15-number subset.
-    reachable = {(0, 0, 0)}
-    for n in range(1, 26):
-        reachable |= {
-            (size + 1, odd + n % 2, total + n)
-            for size, odd, total in reachable
-            if size < 15
-        }
     if not any(
         size == 15
         and applied["odd_min"] <= odd <= applied["odd_max"]
         and applied["sum_min"] <= total <= applied["sum_max"]
-        for size, odd, total in reachable
+        for size, odd, total in reachable_pairs()
     ):
         raise DomainError("Restrições impossíveis para 15 dezenas.")
     return applied

@@ -3,6 +3,7 @@ from django.core.exceptions import ValidationError
 from django.core.management.base import BaseCommand, CommandError
 
 from results.services.contest_service import save_contest
+from results.services.import_lock import serialized_import
 
 BASE_URL = "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil"
 
@@ -21,6 +22,7 @@ class Command(BaseCommand):
             help="Número do concurso a importar",
         )
 
+    @serialized_import
     def handle(self, *args, **options):
         number = options["number"]
 

@@ -6,6 +6,7 @@ from django.core.management.base import BaseCommand, CommandError
 
 from results.management.commands.import_contests import TransientImportError
 from results.models import Contest
+from results.services.import_lock import serialized_import
 
 
 class Command(BaseCommand):
@@ -16,6 +17,7 @@ class Command(BaseCommand):
         parser.add_argument("--end", type=int, required=True)
         parser.add_argument("--delay", type=float, default=1.0)
 
+    @serialized_import
     def handle(self, *args, **options):
         start = options["start"]
         end = options["end"]
@@ -57,7 +59,7 @@ class Command(BaseCommand):
                             f"Falha após 3 tentativas no concurso {number}."
                         ) from error
 
-                    time.sleep(attempt * 2)
+                    time.sleep(max(delay, attempt * 2))
 
                 except CommandError:
                     raise

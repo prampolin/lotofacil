@@ -96,3 +96,16 @@ def test_import_history_does_not_retry_permanent_errors():
     )
 
     mocked_sleep.assert_not_called()
+
+
+@pytest.mark.django_db
+@pytest.mark.parametrize("delay, pauses", [(1, [2, 4]), (5, [5, 5])])
+def test_retry_respects_minimum_delay(delay, pauses):
+    with (
+        patch("results.management.commands.import_history.call_command") as importer,
+        patch("results.management.commands.import_history.time.sleep") as sleep,
+    ):
+        importer.side_effect = [TransientImportError("timeout")] * 2 + [None]
+        call_command("import_history", start=1, end=1, delay=delay)
+    assert [c.args[0] for c in sleep.call_args_list] == pauses
+    assert importer.call_count == 3

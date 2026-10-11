@@ -8,6 +8,8 @@ from django.core.management.base import CommandError
 from results.management.commands.import_contests import TransientImportError
 from results.models import Contest
 
+pytestmark = pytest.mark.django_db
+
 
 @pytest.fixture
 def caixa_response():

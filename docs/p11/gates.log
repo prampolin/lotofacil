@@ -1,0 +1,21 @@
+$ .venv/bin/ruff check .
+All checks passed!
+exit=0
+
+$ .venv/bin/ruff format --check .
+44 files already formatted
+exit=0
+
+$ .venv/bin/python manage.py check
+System check identified no issues (0 silenced).
+exit=0
+
+$ .venv/bin/python manage.py check --deploy --settings=config.production --fail-level=WARNING
+System check identified no issues (0 silenced).
+exit=0
+
+$ .venv/bin/python -m pytest -q
+........................................................................ [ 52%]
+................................................................         [100%]
+136 passed in 3.13s
+exit=0

@@ -10,7 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.1/ref/settings/
 """
 
+import os
 from pathlib import Path
+
+from django.core.exceptions import ImproperlyConfigured
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -19,14 +22,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-nj(c%l!pkq7bs%qar!gj9c3xeg@$=-3buf-1(0f27u2(0k!7h1"
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
+# Secrets are supplied by the process environment (see backend/.env.example).
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "")
+if not SECRET_KEY:
+    raise ImproperlyConfigured("DJANGO_SECRET_KEY is required.")
+DEBUG = os.environ.get("DJANGO_DEBUG", "false").lower() == "true"
+ALLOWED_HOSTS = [
+    host.strip()
+    for host in os.environ.get(
+        "DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1,[::1]"
+    ).split(",")
+    if host.strip()
+]
 
 # Application definition
 
@@ -43,6 +50,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "config.middleware.APIBodyLimitMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -77,11 +85,11 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "lotofacil",
-        "USER": "lotofacil",
-        "PASSWORD": "lotofacil_dev",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
+        "NAME": os.environ.get("POSTGRES_DB", "lotofacil"),
+        "USER": os.environ.get("POSTGRES_USER", "lotofacil"),
+        "PASSWORD": os.environ.get("POSTGRES_PASSWORD", ""),
+        "HOST": os.environ.get("POSTGRES_HOST", "127.0.0.1"),
+        "PORT": os.environ.get("POSTGRES_PORT", "5432"),
     }
 }
 
@@ -129,4 +137,10 @@ MAILERS = {
     "default": {
         "BACKEND": "django.core.mail.backends.console.EmailBackend",
     },
+}
+
+# Successful public REST contracts remain unchanged. Cross-origin access is not enabled.
+DATA_UPLOAD_MAX_MEMORY_SIZE = 64 * 1024
+REST_FRAMEWORK = {
+    "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.AllowAny"],
 }

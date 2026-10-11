@@ -1,0 +1,129 @@
+Último concurso informado: 2
+Concursos existentes: 0
+Concursos ausentes: 2
+Concursos selecionados: 2
+Lote 1/1: 2 concursos
+Último concurso informado: 2
+Concursos existentes: 1
+Concursos ausentes: 1
+Concursos selecionados: 1
+Lote 1/1: 1 concursos
+Sincronização concluída! Concursos processados: 1
+.P11_METRICS=[{"case": "statistics_1", "median_ms": 0.772, "max_ms": 13.063, "queries": 1, "bytes": 2189, "status": 200}, {"case": "statistics_100", "median_ms": 1.527, "max_ms": 1.643, "queries": 1, "bytes": 12721, "status": 200}, {"case": "statistics_1000", "median_ms": 10.262, "max_ms": 10.553, "queries": 1, "bytes": 108140, "status": 200}, {"case": "generate_100", "median_ms": 0.75, "max_ms": 5.026, "queries": 0, "bytes": 4281, "status": 200}, {"case": "generate_rare", "median_ms": 30.774, "max_ms": 31.44, "queries": 0, "bytes": 92, "status": 400}, {"case": "backtest_10x10", "median_ms": 2.232, "max_ms": 2.281, "queries": 1, "bytes": 5733, "status": 200}, {"case": "backtest_200x100", "median_ms": 80.45, "max_ms": 100.636, "queries": 1, "bytes": 936446, "status": 200}]
+P11_EXPLAIN=Limit  (cost=0.29..60.92 rows=1000 width=56)
+  ->  Index Scan Backward using results_contest_number_key on results_contest  (cost=0.29..717.79 rows=11834 width=56)
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3800
+Concurso 3800 importado com sucesso!
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3800
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3800
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/3800
+.Concurso 3800 já existe. Ignorando.
+Concluído! Importados: 0 | Ignorados: 1
+.Concluído! Importados: 3 | Ignorados: 0
+.Concurso 3790: tentativa 1/3 falhou: Erro temporário
+Concluído! Importados: 1 | Ignorados: 0
+..Concurso 1: tentativa 1/3 falhou: timeout
+Concurso 1: tentativa 2/3 falhou: timeout
+Concluído! Importados: 1 | Ignorados: 0
+.Concurso 1: tentativa 1/3 falhou: timeout
+Concurso 1: tentativa 2/3 falhou: timeout
+Concluído! Importados: 1 | Ignorados: 0
+.Último concurso informado: 10
+Concursos existentes: 0
+Concursos ausentes: 10
+Concursos selecionados: 5
+Simulação concluída. Nenhum dado foi alterado.
+.Último concurso informado: 10
+Concursos existentes: 1
+Concursos ausentes: 9
+Concursos selecionados: 3
+Lote 1/1: 3 concursos
+Sincronização concluída! Concursos processados: 3
+.Último concurso informado: 10
+Concursos existentes: 0
+Concursos ausentes: 10
+Concursos selecionados: 3
+Lote 1/2: 2 concursos
+Lote 2/2: 1 concursos
+Sincronização concluída! Concursos processados: 3
+.Último concurso informado: 10
+Concursos existentes: 0
+Concursos ausentes: 6
+Concursos selecionados: 3
+Lote 1/2: 2 concursos
+Lote 2/2: 1 concursos
+Sincronização concluída! Concursos processados: 3
+.Último concurso informado: 10
+Concursos existentes: 0
+Concursos ausentes: 10
+Concursos selecionados: 3
+Lote 1/2: 2 concursos
+Lote 2/2: 1 concursos
+Sincronização concluída! Concursos processados: 3
+.Último concurso informado: 10
+Concursos existentes: 0
+Concursos ausentes: 10
+Concursos selecionados: 3
+Lote 1/1: 3 concursos
+.Último concurso informado: 3
+Concursos existentes: 0
+Concursos ausentes: 3
+Concursos selecionados: 2
+Lote 1/2: 1 concursos
+Lote 2/2: 1 concursos
+Sincronização concluída! Concursos processados: 2
+.Último concurso informado: 3
+Concursos existentes: 0
+Concursos ausentes: 3
+Concursos selecionados: 3
+Simulação concluída. Nenhum dado foi alterado.
+Último concurso informado: 3
+Concursos existentes: 0
+Concursos ausentes: 3
+Concursos selecionados: 3
+Lote 1/1: 3 concursos
+Último concurso informado: 3
+Concursos existentes: 1
+Concursos ausentes: 2
+Concursos selecionados: 2
+Lote 1/1: 2 concursos
+Sincronização concluída! Concursos processados: 2
+Último concurso informado: 3
+Concursos existentes: 3
+Concursos ausentes: 0
+Concursos selecionados: 0
+Nenhum concurso pendente neste intervalo.
+.......Falha adicional ao registrar execução: logging
+Último concurso informado: 3
+Concursos existentes: 0
+Concursos ausentes: 3
+Concursos selecionados: 3
+Lote 1/1: 3 concursos
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1
+.Consultando Caixa: https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/1
+.Concurso 1: tentativa 1/3 falhou: retry
+Concurso 1: tentativa 2/3 falhou: retry
+Concurso 1: tentativa 3/3 falhou: retry
+....F....P11_CACHE cold_ms=4.133 warm_ms=0.288
+.
+=================================== FAILURES ===================================
+_____________________ test_production_settings_fail_closed _____________________
+results/test_security_stability.py:46: in test_production_settings_fail_closed
+    assert valid.returncode == 0, valid.stderr
+E   AssertionError: SystemCheckError: System check identified some issues:
+E     
+E     ERRORS:
+E     ?: (mail.E001) Your MAILERS setting uses a development-only email backend in the 'default' entry (django.core.mail.backends.console.EmailBackend).
+E     	HINT: Use a production-ready email backend, such as the SMTP backend, otherwise email will not be sent.
+E     
+E     System check identified 1 issue (0 silenced).
+E     
+E   assert 1 == 0
+E    +  where 1 = CompletedProcess(args=['/Users/vitorprampolin/prampolin/lotofacil/backend/.venv/bin/python', 'manage.py', 'check', '--...ckend, such as the SMTP backend, otherwise email will not be sent.\n\nSystem check identified 1 issue (0 silenced).\n").returncode
+=========================== short test summary info ============================
+FAILED results/test_security_stability.py::test_production_settings_fail_closed
+1 failed, 42 passed in 2.57s

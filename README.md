@@ -11,13 +11,18 @@ cd backend
 python3.14 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
+# Em ambiente novo: copie .env.example para .env e preencha os segredos.
+# Não sobrescreva um .env existente.
+set -a
+source .env
+set +a
 docker compose up -d postgres
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Os comandos acima são instruções de setup, não foram executados neste sprint. Se `.venv` e PostgreSQL já existem, reutilize-os. O compose mantém `postgres_data`; não remova volumes. Configuração atual em `config/settings.py` é de desenvolvimento (DEBUG e credenciais locais); não é configuração de produção. O banco SQLite vazio não é utilizado. Não há migrações novas.
+Os comandos acima são instruções de setup, não foram executados neste sprint. Se `.venv` e PostgreSQL já existem, reutilize-os. O compose mantém `postgres_data`; não remova volumes. Configuração por ambiente: `DJANGO_SECRET_KEY` obrigatório, `POSTGRES_PASSWORD` externo e `DEBUG=false` por padrão. O `.env` local é privado/ignorado e precisa ser carregado no shell; não é lido automaticamente pelo Django. Para debug local, defina `DJANGO_DEBUG=true`. Gere uma chave privada com `python -c "import secrets; print(secrets.token_urlsafe(64))"`. Produção usa `--settings=config.production` e exige hosts explícitos, chave forte e senha do banco; veja `docs/security-performance.md`. O banco SQLite vazio não é utilizado. Não há migrações novas.
 
 Admin em `http://127.0.0.1:8000/admin/`: acesso autenticado Django; superusuário pode consultar concursos e execuções. Inclusão, edição e exclusão ficam bloqueadas no admin. Busca por número/id, filtros por data/status. Nenhum usuário foi criado automaticamente.
 
@@ -34,7 +39,7 @@ Política DRF existente preservada: API pública, sem exigir autenticação. Adm
 | POST | `/api/v1/games/generate/` | Jogos com seed e filtros opcionais |
 | POST | `/api/v1/backtests/` | Comparação histórica e baseline |
 
-Resultados preservam `number`, `draw_date` (ISO) e `numbers`. Sucesso=200; entrada inválida=400; concurso/seleção vazia=404; método incorreto=405. Erros novos de domínio: `{"detail":"mensagem"}`; erros de serializer: objeto por campo com listas de mensagens. JSON malformado retorna 400. Não há exposição de exceções arbitrárias pelas novas views.
+Resultados preservam `number`, `draw_date` (ISO) e `numbers`. Sucesso=200; entrada inválida=400; concurso/seleção vazia=404; método incorreto nas views DRF=405 (health preserva a view Django sem restrição de método). Erros novos de domínio: `{"detail":"mensagem"}`; erros de serializer: objeto por campo com listas de mensagens. JSON malformado retorna 400. Não há exposição de exceções arbitrárias pelas novas views.
 
 ### Estatísticas
 
@@ -100,7 +105,7 @@ Importação histórica em massa permanece pendente e deve ser autorizada e exec
 
 ## Verificação
 
-Na pasta backend, com venv ativo e PostgreSQL disponível:
+Na pasta backend, com venv ativo, variáveis de `.env` exportadas e PostgreSQL disponível:
 
 ```sh
 ruff check .
@@ -113,3 +118,14 @@ python -m pytest -q
 pytest-django cria banco isolado `test_lotofacil`; não usa tabelas do banco de desenvolvimento nos testes. Chamadas requests externas são bloqueadas por fixture autouse; testes Caixa usam mocks. A migração preexistente 0002 está excluída somente do formatador para cumprir a regra de não reescrever migrações aplicadas; permanece no lint e nas migrações de teste.
 
 Evidências por etapa e resultado final estão em `plan.md`. Critérios, decisões e limitações adicionais: `specs/`. Histórico e arquivos JSON/XLSX prévios foram preservados. Não houve deploy, importação real ou migração no banco de desenvolvimento.
+
+Validação integrada P09: [relatório e evidências](docs/mvp-validation.md).
+
+
+## Segurança e estabilidade (P11)
+
+API pública preservada; CORS não habilitado. Payloads em `/api/v1/` têm limite de 64 KiB (413 JSON acima do limite). Limites de cálculo continuam 1000 concursos em estatísticas, 100 jogos, 10000 tentativas e 200 concursos por backtest. Não há rate limiting distribuído; configurar na borda antes de exposição pública.
+
+Os três comandos de importação agora compartilham advisory lock PostgreSQL de sessão: somente um importador por banco, inclusive entre processos; concorrentes falham antes da rede. Requer conexão direta ou pooling de sessão (não pooling de transação). Ctrl-C registra falha no sync quando já existe log; SIGKILL pode deixar running. Antes de retomar, confirmar término do processo e liberar qualquer autorização necessária; o comando consulta os concursos ausentes. Logs antigos não são modificados automaticamente.
+
+P11 não executou importações ou deploy e preservou os 266 concursos e 2 logs. Histórico Git ainda contém credenciais antigas: a remoção no código atual não substitui rotação coordenada nem limpeza do histórico. Relatório, medições locais e pendências operacionais: [docs/security-performance.md](docs/security-performance.md).

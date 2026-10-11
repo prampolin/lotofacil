@@ -60,9 +60,9 @@ def test_sync_history_skips_existing_contests(mock_caixa):
         )
 
     assert mocked_command.call_args_list == [
-        call("import_history", start=2, end=2),
-        call("import_history", start=3, end=3),
-        call("import_history", start=4, end=4),
+        call("import_history", start=2, end=2, delay=1.0),
+        call("import_history", start=3, end=3, delay=1.0),
+        call("import_history", start=4, end=4, delay=1.0),
     ]
 
 
@@ -100,9 +100,9 @@ def test_sync_history_imports_in_order(mock_caixa):
         )
 
     assert mocked_command.call_args_list == [
-        call("import_history", start=5, end=5),
-        call("import_history", start=6, end=6),
-        call("import_history", start=7, end=7),
+        call("import_history", start=5, end=5, delay=1.0),
+        call("import_history", start=6, end=6, delay=1.0),
+        call("import_history", start=7, end=7, delay=1.0),
     ]
 
 
@@ -160,3 +160,29 @@ def test_sync_history_records_failed_execution(mock_caixa):
     assert execution.finished_at is not None
     assert "Falha simulada" in execution.error_message
     assert mocked_command.call_count == 2
+
+
+@pytest.mark.django_db
+def test_sync_spaces_latest_and_imports_across_batches(mock_caixa):
+    events = []
+    mock_caixa.side_effect = lambda *a, **kw: (
+        events.append("latest") or Mock(json=lambda: {"numero": 3})
+    )
+    with (
+        patch(
+            "results.management.commands.sync_history.call_command",
+            side_effect=lambda name, **kw: events.append(("import", kw)),
+        ),
+        patch(
+            "results.management.commands.sync_history.time.sleep",
+            side_effect=lambda delay: events.append(("sleep", delay)),
+        ),
+    ):
+        call_command("sync_history", batch_size=1, limit=2, delay=5)
+    assert events == [
+        "latest",
+        ("sleep", 5),
+        ("import", {"start": 1, "end": 1, "delay": 5}),
+        ("sleep", 5),
+        ("import", {"start": 2, "end": 2, "delay": 5}),
+    ]

@@ -1,0 +1,3200 @@
+[
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil",
+    "started_at": "2026-10-10T23:47:41.947421+00:00",
+    "interval_seconds": null,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "09/10/2026",
+      "dataProximoConcurso": "11/10/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "15",
+        "13",
+        "19",
+        "11",
+        "04",
+        "20",
+        "23",
+        "09",
+        "08",
+        "07",
+        "03",
+        "24",
+        "17",
+        "12",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "04",
+        "07",
+        "08",
+        "09",
+        "11",
+        "12",
+        "13",
+        "15",
+        "17",
+        "19",
+        "20",
+        "21",
+        "23",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO SEGURO",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SAO JOSE DOS PINHAIS",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ALTA FLORESTA D'OESTE",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO ALEGRE",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RS"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 322726.1
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 427,
+          "valorPremio": 905.56
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 11083,
+          "valorPremio": 35.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 116474,
+          "valorPremio": 14.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 560223,
+          "valorPremio": 7.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "numero": 3801,
+      "numeroConcursoAnterior": 3800,
+      "numeroConcursoFinal_0_5": 3810,
+      "numeroConcursoProximo": 3802,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 20357470.0,
+      "valorAcumuladoConcurso_0_5": 208210.39,
+      "valorAcumuladoConcursoEspecial": 9759712.2,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/233",
+    "started_at": "2026-10-10T23:47:44.575823+00:00",
+    "interval_seconds": 2.628429208009038,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "02/07/2007",
+      "dataProximoConcurso": "05/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "01",
+        "14",
+        "07",
+        "03",
+        "13",
+        "02",
+        "06",
+        "08",
+        "12",
+        "05",
+        "21",
+        "17",
+        "09",
+        "19",
+        "04"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "12",
+        "13",
+        "14",
+        "17",
+        "19",
+        "21"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SE"
+        },
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 122409.35
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 820,
+          "valorPremio": 509.88
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 24183,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 291569,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1234674,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "PALMAS, TO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 233,
+      "numeroConcursoAnterior": 232,
+      "numeroConcursoFinal_0_5": 240,
+      "numeroConcursoProximo": 234,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/234",
+    "started_at": "2026-10-10T23:47:46.818045+00:00",
+    "interval_seconds": 2.2422438749927096,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "05/07/2007",
+      "dataProximoConcurso": "09/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "14",
+        "01",
+        "05",
+        "02",
+        "12",
+        "03",
+        "04",
+        "13",
+        "17",
+        "24",
+        "09",
+        "15",
+        "21",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "09",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "17",
+        "21",
+        "22",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 889594.53
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 676,
+          "valorPremio": 561.85
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 39252,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 226627,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1231982,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "PALMAS, TO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 234,
+      "numeroConcursoAnterior": 233,
+      "numeroConcursoFinal_0_5": 240,
+      "numeroConcursoProximo": 235,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/235",
+    "started_at": "2026-10-10T23:47:49.475012+00:00",
+    "interval_seconds": 2.6569934170111082,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "09/07/2007",
+      "dataProximoConcurso": "12/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "21",
+        "13",
+        "24",
+        "14",
+        "18",
+        "17",
+        "08",
+        "16",
+        "12",
+        "23",
+        "19",
+        "15",
+        "01",
+        "25",
+        "10"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "08",
+        "10",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "21",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "AM"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 248234.57
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 475,
+          "valorPremio": 895.89
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 16531,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 263639,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1103205,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "SALINAS, MG",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 235,
+      "numeroConcursoAnterior": 234,
+      "numeroConcursoFinal_0_5": 240,
+      "numeroConcursoProximo": 236,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/236",
+    "started_at": "2026-10-10T23:47:52.135531+00:00",
+    "interval_seconds": 2.660545499995351,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "12/07/2007",
+      "dataProximoConcurso": "16/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "01",
+        "13",
+        "03",
+        "22",
+        "25",
+        "23",
+        "05",
+        "16",
+        "04",
+        "09",
+        "12",
+        "15",
+        "08",
+        "07",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09",
+        "12",
+        "13",
+        "15",
+        "16",
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 359,
+          "valorPremio": 1298.37
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 16808,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 225582,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1248389,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "SALINAS, MG",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 236,
+      "numeroConcursoAnterior": 235,
+      "numeroConcursoFinal_0_5": 240,
+      "numeroConcursoProximo": 237,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1087600.01,
+      "valorEstimadoProximoConcurso": 2500000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/237",
+    "started_at": "2026-10-10T23:47:54.787996+00:00",
+    "interval_seconds": 2.6524941659881733,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "16/07/2007",
+      "dataProximoConcurso": "19/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "13",
+        "12",
+        "07",
+        "06",
+        "05",
+        "19",
+        "23",
+        "16",
+        "04",
+        "20",
+        "22",
+        "09",
+        "18",
+        "15",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "05",
+        "06",
+        "07",
+        "09",
+        "12",
+        "13",
+        "15",
+        "16",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 545832.17
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 759,
+          "valorPremio": 926.91
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 22024,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 267999,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1388224,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "IPAMERI, GO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 237,
+      "numeroConcursoAnterior": 236,
+      "numeroConcursoFinal_0_5": 240,
+      "numeroConcursoProximo": 238,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/238",
+    "started_at": "2026-10-10T23:47:57.481849+00:00",
+    "interval_seconds": 2.6938800839998294,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "19/07/2007",
+      "dataProximoConcurso": "23/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "17",
+        "19",
+        "24",
+        "20",
+        "13",
+        "06",
+        "21",
+        "04",
+        "12",
+        "01",
+        "14",
+        "23",
+        "15",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "04",
+        "06",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "17",
+        "19",
+        "20",
+        "21",
+        "23",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1158825.53
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 319,
+          "valorPremio": 1556.87
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 12604,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 177262,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1112538,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "IPAMERI, GO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 238,
+      "numeroConcursoAnterior": 237,
+      "numeroConcursoFinal_0_5": 240,
+      "numeroConcursoProximo": 239,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/239",
+    "started_at": "2026-10-10T23:48:00.147590+00:00",
+    "interval_seconds": 2.665768125007162,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "23/07/2007",
+      "dataProximoConcurso": "26/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "07",
+        "13",
+        "09",
+        "14",
+        "25",
+        "15",
+        "10",
+        "22",
+        "01",
+        "23",
+        "16",
+        "03",
+        "06",
+        "19",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10",
+        "13",
+        "14",
+        "15",
+        "16",
+        "19",
+        "22",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 268193.92
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 736,
+          "valorPremio": 622.31
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 22562,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 264149,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1294387,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "DOMINGOS MARTINS, ES",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 239,
+      "numeroConcursoAnterior": 238,
+      "numeroConcursoFinal_0_5": 240,
+      "numeroConcursoProximo": 240,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/240",
+    "started_at": "2026-10-10T23:48:02.408869+00:00",
+    "interval_seconds": 2.2613009579945356,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "26/07/2007",
+      "dataProximoConcurso": "30/07/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "02",
+        "10",
+        "09",
+        "23",
+        "19",
+        "15",
+        "01",
+        "13",
+        "22",
+        "04",
+        "11",
+        "18",
+        "14",
+        "16",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "04",
+        "09",
+        "10",
+        "11",
+        "13",
+        "14",
+        "15",
+        "16",
+        "18",
+        "19",
+        "21",
+        "22",
+        "23"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PR"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1076749.8
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 395,
+          "valorPremio": 1168.26
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 14664,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 181955,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1027526,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "DOMINGOS MARTINS, ES",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 240,
+      "numeroConcursoAnterior": 239,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 241,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/241",
+    "started_at": "2026-10-10T23:48:05.127327+00:00",
+    "interval_seconds": 2.7184871250065044,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "30/07/2007",
+      "dataProximoConcurso": "02/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "05",
+        "23",
+        "24",
+        "13",
+        "15",
+        "21",
+        "08",
+        "12",
+        "09",
+        "25",
+        "04",
+        "17",
+        "20",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "04",
+        "05",
+        "08",
+        "09",
+        "12",
+        "13",
+        "14",
+        "15",
+        "17",
+        "20",
+        "21",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RS"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 162955.29
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 550,
+          "valorPremio": 758.98
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 18840,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 248779,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1368593,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "IRATI, PR",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 241,
+      "numeroConcursoAnterior": 240,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 242,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Salvador/BA(2) - Alagoinhas/BA - Fortaleza/CE - Trindade/GO - Porto Alegre/RS",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/242",
+    "started_at": "2026-10-10T23:48:07.840574+00:00",
+    "interval_seconds": 2.713274832989555,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "02/08/2007",
+      "dataProximoConcurso": "06/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "13",
+        "02",
+        "21",
+        "19",
+        "08",
+        "15",
+        "17",
+        "06",
+        "22",
+        "14",
+        "09",
+        "16",
+        "18",
+        "23",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "05",
+        "06",
+        "08",
+        "09",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "23"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 553900.01
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 500,
+          "valorPremio": 949.54
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 16629,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 210405,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1126014,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "IRATI, PR",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 242,
+      "numeroConcursoAnterior": 241,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 243,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Goiânia/GO e Carmo do Paranaíba/MG.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/243",
+    "started_at": "2026-10-10T23:48:10.554812+00:00",
+    "interval_seconds": 2.7142661250254605,
+    "status": 200,
+    "payload": {
+      "acumulado": true,
+      "dataApuracao": "06/08/2007",
+      "dataProximoConcurso": "09/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "05",
+        "03",
+        "13",
+        "25",
+        "07",
+        "23",
+        "16",
+        "21",
+        "18",
+        "01",
+        "20",
+        "04",
+        "02",
+        "12",
+        "17"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "12",
+        "13",
+        "16",
+        "17",
+        "18",
+        "20",
+        "21",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 395,
+          "valorPremio": 1431.01
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 15691,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 239166,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1305797,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "ANÁPOLIS, GO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 243,
+      "numeroConcursoAnterior": 242,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 244,
+      "numeroJogo": 8,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1318918.79,
+      "valorEstimadoProximoConcurso": 2800000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/244",
+    "started_at": "2026-10-10T23:48:13.252918+00:00",
+    "interval_seconds": 2.698133958998369,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "09/08/2007",
+      "dataProximoConcurso": "13/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "06",
+        "12",
+        "10",
+        "24",
+        "11",
+        "07",
+        "18",
+        "15",
+        "03",
+        "22",
+        "05",
+        "14",
+        "20",
+        "21",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10",
+        "11",
+        "12",
+        "14",
+        "15",
+        "18",
+        "20",
+        "21",
+        "22",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "AM"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SC"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 761115.43
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 654,
+          "valorPremio": 1130.76
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 22161,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 252057,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1277102,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "ANÁPOLIS, GO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 244,
+      "numeroConcursoAnterior": 243,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 245,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Dourados/MS - Manaus/AM - Blumenau/SC - Maringá/PR.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/245",
+    "started_at": "2026-10-10T23:48:15.914119+00:00",
+    "interval_seconds": 2.6612277499807533,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "13/08/2007",
+      "dataProximoConcurso": "16/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "24",
+        "10",
+        "19",
+        "18",
+        "12",
+        "14",
+        "25",
+        "01",
+        "09",
+        "02",
+        "15",
+        "06",
+        "07",
+        "16"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "06",
+        "07",
+        "09",
+        "10",
+        "11",
+        "12",
+        "14",
+        "15",
+        "16",
+        "18",
+        "19",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1602862.09
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 397,
+          "valorPremio": 1730.33
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 17309,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 203970,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1148741,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "MUQUÉM (NIQUELÃNDIA) , GO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 245,
+      "numeroConcursoAnterior": 244,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 246,
+      "numeroJogo": 8,
+      "observacao": "Ganhador de 15 acertos: Cerquilho/SP.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/246",
+    "started_at": "2026-10-10T23:48:18.571443+00:00",
+    "interval_seconds": 2.6573521250102203,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "16/08/2007",
+      "dataProximoConcurso": "20/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "08",
+        "07",
+        "25",
+        "24",
+        "01",
+        "05",
+        "09",
+        "21",
+        "18",
+        "15",
+        "17",
+        "12",
+        "10",
+        "04",
+        "13"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09",
+        "10",
+        "12",
+        "13",
+        "15",
+        "17",
+        "18",
+        "21",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 514572.62
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 646,
+          "valorPremio": 680.17
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 17875,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 209948,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1210961,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "URUAÇU, GO",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 246,
+      "numeroConcursoAnterior": 245,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 247,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Salvador/BA e Belo Horizonte/MG.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/247",
+    "started_at": "2026-10-10T23:48:20.834092+00:00",
+    "interval_seconds": 2.262671540986048,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "20/08/2007",
+      "dataProximoConcurso": "23/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "01",
+        "22",
+        "07",
+        "08",
+        "14",
+        "04",
+        "02",
+        "25",
+        "03",
+        "17",
+        "15",
+        "16",
+        "23",
+        "19",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "07",
+        "08",
+        "09",
+        "14",
+        "15",
+        "16",
+        "17",
+        "19",
+        "22",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SC"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1100400.4
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 746,
+          "valorPremio": 629.77
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 22515,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 262704,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1367044,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "CRUZEIRO DO OESTE, PR",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 247,
+      "numeroConcursoAnterior": 246,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 248,
+      "numeroJogo": 8,
+      "observacao": "Ganhador de 15 acertos: Videira/SC.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/248",
+    "started_at": "2026-10-10T23:48:23.118823+00:00",
+    "interval_seconds": 2.284754917025566,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "23/08/2007",
+      "dataProximoConcurso": "27/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "25",
+        "10",
+        "12",
+        "08",
+        "05",
+        "02",
+        "11",
+        "20",
+        "21",
+        "01",
+        "16",
+        "19",
+        "09",
+        "13",
+        "15"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "05",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "15",
+        "16",
+        "19",
+        "20",
+        "21",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 205597.54
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 568,
+          "valorPremio": 772.71
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 18679,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 213407,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1182527,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "CRUZEIRO DO OESTE, PR",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 248,
+      "numeroConcursoAnterior": 247,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 249,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Iturama/MG - Guarujá/SP - São Paulo/SP (02) - Rio de janeiro/RJ.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/249",
+    "started_at": "2026-10-10T23:48:25.787595+00:00",
+    "interval_seconds": 2.6687993749801535,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "27/08/2007",
+      "dataProximoConcurso": "30/08/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "23",
+        "05",
+        "21",
+        "14",
+        "18",
+        "12",
+        "07",
+        "15",
+        "08",
+        "04",
+        "25",
+        "09",
+        "22",
+        "17",
+        "10"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "05",
+        "07",
+        "08",
+        "09",
+        "10",
+        "12",
+        "14",
+        "15",
+        "17",
+        "18",
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 300690.74
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 456,
+          "valorPremio": 1130.42
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 20710,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 240312,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1246804,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "GUARAMIRIM, SC",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 249,
+      "numeroConcursoAnterior": 248,
+      "numeroConcursoFinal_0_5": 250,
+      "numeroConcursoProximo": 250,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Castanhal/PA, São Gonçalo/RJ, Boa Vista/RR e Mococa/SP.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/250",
+    "started_at": "2026-10-10T23:48:28.438113+00:00",
+    "interval_seconds": 2.650545000011334,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "30/08/2007",
+      "dataProximoConcurso": "03/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "19",
+        "13",
+        "02",
+        "05",
+        "23",
+        "09",
+        "03",
+        "10",
+        "15",
+        "17",
+        "16",
+        "18",
+        "21",
+        "12",
+        "01"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "05",
+        "09",
+        "10",
+        "12",
+        "13",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "21",
+        "23"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 729124.59
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 456,
+          "valorPremio": 682.67
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 20409,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 248997,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1315442,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "GUARAMIRIM, SC",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 250,
+      "numeroConcursoAnterior": 249,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 251,
+      "numeroJogo": 8,
+      "observacao": "GANHANDOR DE 15 ACERTOS: TEÓFILO OTONI/MG.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/251",
+    "started_at": "2026-10-10T23:48:31.190942+00:00",
+    "interval_seconds": 2.752857082989067,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "03/09/2007",
+      "dataProximoConcurso": "06/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "21",
+        "13",
+        "19",
+        "15",
+        "23",
+        "18",
+        "22",
+        "09",
+        "04",
+        "25",
+        "16",
+        "10",
+        "03",
+        "05",
+        "06"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "09",
+        "10",
+        "13",
+        "15",
+        "16",
+        "18",
+        "19",
+        "21",
+        "22",
+        "23",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 388791.25
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 546,
+          "valorPremio": 915.52
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 18852,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 250206,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1373895,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "SÃO LUÍS, MA",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 251,
+      "numeroConcursoAnterior": 250,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 252,
+      "numeroJogo": 8,
+      "observacao": "03 GANHADORES DE 15 ACERTOS: BRASÍLIA; BELO HORIZONTE E JAÚ/SP.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/252",
+    "started_at": "2026-10-10T23:48:33.954109+00:00",
+    "interval_seconds": 2.763196375017287,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "06/09/2007",
+      "dataProximoConcurso": "10/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "02",
+        "06",
+        "18",
+        "25",
+        "15",
+        "11",
+        "24",
+        "23",
+        "03",
+        "22",
+        "17",
+        "04",
+        "19",
+        "14",
+        "08"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "04",
+        "06",
+        "08",
+        "11",
+        "14",
+        "15",
+        "17",
+        "18",
+        "19",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "DF"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 1145268.64
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 578,
+          "valorPremio": 849.19
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 23054,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 215463,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1143748,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "SÃO LUÍS, MA",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 252,
+      "numeroConcursoAnterior": 251,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 253,
+      "numeroJogo": 8,
+      "observacao": "Ganhador de 15 acertos: Brasília/DF.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/253",
+    "started_at": "2026-10-10T23:48:36.647667+00:00",
+    "interval_seconds": 2.693584791995818,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "10/09/2007",
+      "dataProximoConcurso": "13/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "22",
+        "04",
+        "19",
+        "05",
+        "21",
+        "23",
+        "06",
+        "01",
+        "18",
+        "11",
+        "12",
+        "15",
+        "08",
+        "13",
+        "07"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "11",
+        "12",
+        "13",
+        "15",
+        "18",
+        "19",
+        "21",
+        "22",
+        "23"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SE"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 384999.07
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 467,
+          "valorPremio": 1059.96
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 15696,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 205230,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1103731,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "RIO CLARO, SP",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 253,
+      "numeroConcursoAnterior": 252,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 254,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Aracaju/SE - Pato Bragado/PR - Porto Alegre/RS.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/254",
+    "started_at": "2026-10-10T23:48:38.900099+00:00",
+    "interval_seconds": 2.2524551670067012,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "13/09/2007",
+      "dataProximoConcurso": "17/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "20",
+        "02",
+        "23",
+        "06",
+        "05",
+        "14",
+        "15",
+        "09",
+        "08",
+        "03",
+        "07",
+        "11",
+        "16",
+        "13",
+        "04"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "11",
+        "13",
+        "14",
+        "15",
+        "16",
+        "20",
+        "23"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 309239.02
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 344,
+          "valorPremio": 1541.06
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 14579,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 247017,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1172541,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "RIO CLARO , SP",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 254,
+      "numeroConcursoAnterior": 253,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 255,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Salvador/BA, Fortaleza/CE e São Paulo/SP(2).",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/255",
+    "started_at": "2026-10-10T23:48:41.152609+00:00",
+    "interval_seconds": 2.2525335409736726,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "17/09/2007",
+      "dataProximoConcurso": "20/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "17",
+        "03",
+        "04",
+        "01",
+        "02",
+        "14",
+        "15",
+        "10",
+        "09",
+        "16",
+        "22",
+        "24",
+        "06",
+        "21",
+        "23"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "06",
+        "09",
+        "10",
+        "14",
+        "15",
+        "16",
+        "17",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 574134.62
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 426,
+          "valorPremio": 1732.8
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 13725,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 186470,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1138744,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "SÃO GONÇALO, RJ",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 255,
+      "numeroConcursoAnterior": 254,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 256,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Campos do Jordão/SP, Itupeva/SP e São Paulo/SP.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/256",
+    "started_at": "2026-10-10T23:48:43.805170+00:00",
+    "interval_seconds": 2.6525862920098007,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "20/09/2007",
+      "dataProximoConcurso": "24/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "01",
+        "12",
+        "10",
+        "09",
+        "16",
+        "08",
+        "18",
+        "20",
+        "07",
+        "02",
+        "06",
+        "22",
+        "13",
+        "15",
+        "24"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "02",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "12",
+        "13",
+        "15",
+        "16",
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 219836.27
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 458,
+          "valorPremio": 1234.27
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 17563,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 205198,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1057444,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "SÃO GONÇALO, RJ",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 256,
+      "numeroConcursoAnterior": 255,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 257,
+      "numeroJogo": 8,
+      "observacao": "Ganhadores de 15 acertos: Brasília/DF(2), Esteio/RS, São José dos Campos/SP, Santa Adélia/SP e Rio de Janeiro/RJ.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  },
+  {
+    "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/lotofacil/257",
+    "started_at": "2026-10-10T23:48:46.449285+00:00",
+    "interval_seconds": 2.6441441669885535,
+    "status": 200,
+    "payload": {
+      "acumulado": false,
+      "dataApuracao": "24/09/2007",
+      "dataProximoConcurso": "27/09/2007",
+      "dezenasSorteadasOrdemSorteio": [
+        "22",
+        "10",
+        "12",
+        "09",
+        "07",
+        "18",
+        "13",
+        "06",
+        "01",
+        "16",
+        "03",
+        "24",
+        "14",
+        "17",
+        "19"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "03",
+        "06",
+        "07",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14",
+        "16",
+        "17",
+        "18",
+        "19",
+        "22",
+        "24"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "AM"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "15 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 656028.71
+        },
+        {
+          "descricaoFaixa": "14 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 600,
+          "valorPremio": 937.19
+        },
+        {
+          "descricaoFaixa": "13 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 20544,
+          "valorPremio": 10.0
+        },
+        {
+          "descricaoFaixa": "12 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 242288,
+          "valorPremio": 4.0
+        },
+        {
+          "descricaoFaixa": "11 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 1285535,
+          "valorPremio": 2.0
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "Caminhão da Sorte",
+      "nomeMunicipioUFSorteio": "BOM DESPACHO, MG",
+      "nomeTimeCoracaoMesSorte": "",
+      "numero": 257,
+      "numeroConcursoAnterior": 256,
+      "numeroConcursoFinal_0_5": 260,
+      "numeroConcursoProximo": 258,
+      "numeroJogo": 8,
+      "observacao": "GANHADORES DE 15 ACERTOS: MANAUS/AM E SÃO PAULO/SP.",
+      "premiacaoContingencia": null,
+      "tipoJogo": "LOTOFACIL",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0,
+      "valorSaldoReservaGarantidora": 0.0,
+      "valorTotalPremioFaixaUm": 0.0
+    }
+  }
+]

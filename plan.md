@@ -15,8 +15,10 @@
 - [x] P07 DONE — Expose and validate versioned HTTP contracts (08).
 - [x] P08 DONE — Integrate API tests, error behavior, docs and quality gates (10, 11).
 
+- [x] P09 DONE — Validação integrada do MVP: gates, PostgreSQL/migrations, contratos HTTP em banco isolado, limites, replay, ausência de look-ahead e relatório docs/mvp-validation.md.
+
 ## Deferred/optional in 1–2 hour sprint
-- [ ] P09 TODO — Import the full historical dataset via manually executed, rate-limited commands after review (03, 04).
+- [ ] OP01 TODO — Import the full historical dataset via manually executed, rate-limited commands after review (03, 04).
 - [ ] P10 TODO — Production deployment, scheduler/queue, UI, advanced optimization: out of current scope.
 
 ## Operating rules
@@ -86,8 +88,53 @@ Comandos executados em `backend/`, usando `.venv/bin/` (equivalente a venv ativa
 
 ### Pendências e verificações não executadas
 
-- P09 TODO: importação histórica em massa somente após autorização explícita. Caixa ao vivo NOT RUN; integração verificada com mocks, sem afirmar disponibilidade atual nem último concurso.
+- OP01 TODO: importação histórica em massa somente após autorização explícita. Caixa ao vivo NOT RUN; integração verificada com mocks, sem afirmar disponibilidade atual nem último concurso.
 - P10 TODO / fora de escopo: deploy, scheduler/queue, frontend, otimização avançada. Setup em ambiente novo e runserver manual NOT RUN; o ambiente existente foi verificado via checks e cliente de testes.
 - Limitações aceitas: importadores concorrentes podem falhar por unicidade; não há trava distribuída. SIGKILL/perda de banco pode deixar running; não há detecção automática de execução obsoleta. Erro de logging é reportado preservando a exceção original, mas banco indisponível pode impedir persistência do estado final.
 - Heurística baseada em treinamento histórico é opcional e não foi implementada. Rolling baseline não recebe dados de sorteios; jogos fixos escolhidos externamente podem conter viés de seleção. Nenhuma alegação de previsão, vantagem estatística ou ganhos.
-- Próxima prioridade operacional, se autorizada: revisar/importar lotes históricos P09, observando limites e logs. Não é necessária para concluir os critérios do MVP de código.
+- Próxima prioridade operacional, se autorizada: revisar/importar lotes históricos OP01, observando limites e logs. Não é necessária para concluir os critérios do MVP de código.
+
+## P09 — Validação integrada (2026-10-10)
+
+- IN_PROGRESS. O identificador P09 passa a representar a validação solicitada; a importação histórica opcional foi renomeada OP01 e continua não autorizada. Baseline Git limpo. Somente leituras no PostgreSQL de desenvolvimento; fixtures e mutations restritas ao banco pytest-django.
+
+- **DONE — READY para o MVP local.** Relatório: `docs/mvp-validation.md`. 11 testes de integração novos, sem alteração funcional: fluxo geração → fixed_games, replay, mutação de resultados/futuro, banco isolado e migrations, consultas/limites, JSON e métodos.
+- Baseline sandbox: 71 passed / 33 errors / 1 warning (2.80s, exit 1), conexão PostgreSQL bloqueada. Repetição autorizada: 104 passed in 0.79s, exit 0. Focado P09: 11 passed in 0.45s, exit 0.
+- Gates finais em backend: `ruff check .` → All checks passed!; `ruff format --check .` → 39 files already formatted; `python manage.py check` → 0 issues; `python -m pytest -q --durations=5` → 115 passed in 0.93s. Todos exit 0.
+- `makemigrations --check --dry-run` → No changes detected; `showmigrations --plan` → 20 [X]; `migrate --check` → sem saída. Todos exit 0, nenhuma migration aplicada ao desenvolvimento. Inspeção READ ONLY: PostgreSQL 17.11, lotofacil, 241 concursos/1 execução, zero migrations pendentes. Teste confirma uso de test_lotofacil e índice único.
+- Cenário máximo: estatísticas 1000 + backtest 200×100, duas consultas limitadas, 0.093s local, resposta backtest 936446 bytes. Sem benchmark concorrente/SLA.
+- Ajustes documentais: P09 opcional antigo renomeado OP01; SPEC-08 registra contrato confirmado e README delimita 405 às views DRF. Nenhum defeito funcional reproduzido ou correção de produção efetuada. Sem importação real, alteração de dados de desenvolvimento, migration reescrita ou deploy. Limitações/NOT RUN no relatório.
+- Revisão final de diff e arquivos novos concluída; `git diff --check` exit 0. Arquivos: README.md, plan.md, specs/08-rest-api.md, docs/mvp-validation.md e backend/results/test_mvp_integration.py.
+
+## P10 — Sincronização e validação do histórico (2026-10-10)
+
+- **IN_PROGRESS** — diagnóstico somente leitura, revisão dos três importadores e dry-run; importação em massa exige autorização explícita posterior. P10 passa a identificar esta tarefa; a antiga referência a P10 para deploy/infra permanece apenas histórica e fora de escopo. Alterações preexistentes de P09 preservadas (README, plan, SPEC-08, teste integrado e docs).
+- Diagnóstico READ ONLY + dry-run reais: 241 concursos, faixas 1–232 e 3792–3800, último Caixa=3801, 3560 ausentes; zero inválidos/duplicados/desordenados. Sandbox inicial negou TCP (exit 1); repetição com acesso autorizado exit 0. Nenhuma escrita, igualdade exata dos registros/logs antes/depois.
+- Correção necessária antes da execução: `sync_history` não aguardava entre latest e primeira importação; não propagava delay ao importador interno; retry de `import_history` usava 2/4s mesmo se delay maior. Preservar argumentos e contratos, acrescentando pausa inicial e respeitando `max(delay, backoff)` em retries. Testes existentes de mocks serão adaptados para o argumento propagado; regressões focadas adicionadas apenas para estes defeitos.
+- **Fases 1–2 verificadas; fase 3 dry-run concluído.** Relatório `docs/history-import.md`: cobertura 6,34%, lacunas 233–3791 e 3801; plano de 143 execuções de até 25, delay=2s, 3703 chamadas sem retries. Uma única consulta real à Caixa; nenhuma importação/escrita no PostgreSQL de desenvolvimento.
+- Correções implementadas: pausa após latest, propagação de delay e backoff respeitando delay. Testes focados: `32 passed in 1.36s`, exit 0; três casos novos de regressão. Mocks existentes ajustados ao argumento interno adicional.
+- Gates finais: `ruff check .` → All checks passed!; `ruff format --check .` → 39 files already formatted; `python manage.py check` → 0 issues; `python -m pytest -q` → 118 passed in 1.95s; todos exit 0. PostgreSQL de testes isolado, HTTP mockado. Nenhuma migration alterada.
+- **P10 permanece IN_PROGRESS, aguardando autorização explícita para importação em massa.** Execução real e validação pós-importação NOT RUN. Limitações de Retry-After, concorrência, interrupção abrupta, latest sem log e indisponibilidade do banco detalhadas no relatório. Não marcar histórico como completo.
+- Revisão final do diff funcional e do relatório concluída; `git diff --check` exit 0. Bytecode rastreado modificado pela execução dos testes restaurado ao conteúdo inicial; mudanças preexistentes de P09 preservadas.
+
+## P10.1 — Primeiro lote real controlado (2026-10-10)
+
+- **DONE** — autorização limitada aos concursos 233–257, até 25, intervalo mínimo 2s. Verificar PostgreSQL e snapshot integral antes; usar comandos existentes com retry/backoff, logs persistentes e interromper em bloqueios/falhas permanentes. Nenhum lote seguinte autorizado.
+
+- Executado um único `sync_history --start 233 --batch-size 25 --limit 25 --delay 2` via call_command, exit 0; proteção operacional de escopo/intervalo e parada imediata em 403/429, sem modificar comandos. 26 HTTP 200; intervalo mínimo observado 2,242s; zero falhas/retries. SyncExecution id=2 completed, processed=25, 20:47:42–20:48:46 America/Sao_Paulo.
+- PostgreSQL 17.11 confirmado após bloqueio inicial de sandbox (exit 1; repetição autorizada exit 0). Antes: 241 registros, intervalo vazio, nenhum running. Depois: 266, concursos 233–257 completos; 241 anteriores e log anterior integralmente preservados. Validação READ ONLY exit 0: zero duplicações/inválidos/desordenados, datas/dezenas novas iguais aos payloads Caixa. Cobertura 266/3801=7,00%; lacunas 258–3791 e 3801 (3535).
+- Gates reais, todos exit 0: Ruff check → All checks passed!; Ruff format --check → 39 files already formatted; manage.py check → 0 issues; pytest → 118 passed in 1.99s (banco isolado, HTTP mockado). Executados durante o lote; verificação final PostgreSQL após conclusão.
+- Relatório atualizado: docs/history-import.md; snapshots, saída do comando, payloads/horários HTTP, verificação e pytest persistidos em docs/history-import/p10-1/. Nenhuma alteração de código/migration, deploy ou lote adicional. P10 global permanece incompleto; próximas importações exigem nova autorização.
+
+## P11 — Segurança, performance e estabilidade
+
+- **DONE** — auditoria de configuração, payloads, consultas e concorrência. Sem importações reais, deploy ou escrita no histórico de desenvolvimento; testes e benchmarks no banco pytest-django, Caixa mockada. Alterações anteriores preservadas.
+- Decisões: manter endpoints públicos e contratos de sucesso. Configuração por ambiente, perfil de produção fail-closed e segredos locais ignorados pelo Git; não reescrever histórico Git nem rotacionar credenciais do PostgreSQL sem coordenação. Limitar tamanho HTTP antes do parsing, documentando 413 para excesso. Serializar comandos de importação com advisory lock PostgreSQL reentrante no mesmo contexto; concorrente falha antes de HTTP. Interrupção controlada deve persistir failed; SIGKILL exige inspeção manual. Não adicionar índices sem evidência.
+
+- Relatório: `docs/security-performance.md`; evidências em `docs/p11/`. Configuração por ambiente, DEBUG=false padrão, production fail-closed + TLS/cookies/HSTS/SMTP, payload API limitado a 64 KiB (413), advisory lock reentrante nos três importadores, logging de KeyboardInterrupt, seleção de lacunas limitada e cache combinatório imutável. API pública, CLI e sucesso REST preservados; 413 documentado em SPEC-08.
+- Baseline: sandbox 71 passed/47 errors/1 warning (4.11s), TCP bloqueado; repetição autorizada 118 passed in 2.01s. Intermediários: 42 passed/1 failed (SMTP corrigido); 8 passed/3 failed (import de timezone introduzido na edição e corrigido); depois 133 passed. Final: **136 passed in 3.13s**, exit 0. 18 casos novos; concorrência via conexões independentes e Caixa mockada.
+- Gates finais, exit 0: Ruff check All checks passed!; format 44 files already formatted; Django check e check --deploy production 0 issues; makemigrations --check --dry-run No changes detected; migrate --check sem saída (sem aplicar migrations). Logs de cada gate final em docs/p11/gates.log.
+- Performance local, 4000 fixtures/3 repetições: medianas estatísticas 1/100/1000 = 0,754/1,560/9,293 ms (1 SQL); geração 100 = 0,656 ms (0 SQL); filtro raro = 30,719 ms/400 limitado; backtest 10×10/200×100 = 1,876/82,840 ms (1 SQL), teto 936446 bytes. Cache frio/quente 5,918/0,309 ms, resposta idêntica. EXPLAIN usa índice único existente; sem índices novos.
+- Preservação READ ONLY confirmada: 266 concursos/2 logs, igualdade integral antes/depois, SHA-256 combinado 38768cb313e1f9925710b66402b155feb445cec6a46efcf6f94ca40d93dce308. Zero importações reais/deploy/migrations, nenhum histórico alterado. Removido somente bytecode de settings com segredos; demais mudanças anteriores preservadas.
+- Riscos pendentes: segredos antigos no histórico Git (sem reescrita/commit/rotação do banco), rate limiting/proxy/HTTPS/backup/roles de produção, Retry-After ignorado, latest sem log persistente, SIGKILL pode deixar running, locks requerem conexão direta/pooling de sessão. P12 não especificado: pronto para próxima etapa local, **não para deploy**. Carregar .env privado no shell; README atualizado.
+- Revisão final dos diffs e arquivos novos concluída; `git diff --check` exit 0. README/spec de API documentam ambiente e 413; relatório diferencia gates de código de prontidão operacional. Nenhuma etapa futura foi iniciada.
